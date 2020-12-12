@@ -221,18 +221,24 @@
     <title>ES 新特性与 TypeScript、JS 性能优化</title>
     <url>/notes/notes/typescript/</url>
     <content><![CDATA[<h1 id="ES-新特性"><a href="#ES-新特性" class="headerlink" title="ES 新特性"></a>ES 新特性</h1><ul>
-<li>ECMAScript 是 JavaScript 的扩展语言</li>
-<li>JavaScript = ECMAScript + webapi(BOM,DOM)</li>
-<li>ES2015 称之为 ES6</li>
-<li>不是程序中的方法，而是数学中的函数</li>
-</ul>
-<a id="more"></a>
-
-<ul>
-<li>解决原有语法上的一些问题或者不足</li>
-<li>对原有语法进行加强</li>
-<li>全新的对象，全新的方法，全新的功能</li>
-<li>全新的数据类型和数据结构</li>
+<li><p>ECMAScript 是 JavaScript 的扩展语言</p>
+</li>
+<li><p>JavaScript = ECMAScript + webapi(BOM,DOM)</p>
+</li>
+<li><p>ES2015 称之为 ES6</p>
+</li>
+<li><p>不是程序中的方法，而是数学中的函数</p>
+</li>
+<li><a id="more"></a>
+</li>
+<li><p>解决原有语法上的一些问题或者不足</p>
+</li>
+<li><p>对原有语法进行加强</p>
+</li>
+<li><p>全新的对象，全新的方法，全新的功能</p>
+</li>
+<li><p>全新的数据类型和数据结构</p>
+</li>
 </ul>
 <ol>
 <li><p>let 与块级作用域<br> 作用域：全局作用域，函数作用域，块级作用域</p>
