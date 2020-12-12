@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>me</title>
+    <url>/life/life/me/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>关于</tag>
+        <tag>生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>函数式编程与 JS 异步编程</title>
     <url>/notes/notes/functional-programming/</url>
     <content><![CDATA[<h1 id="函数式编程"><a href="#函数式编程" class="headerlink" title="函数式编程"></a>函数式编程</h1><ul>
@@ -203,18 +215,6 @@
       <tags>
         <tag>function</tag>
         <tag>promise</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>me</title>
-    <url>/life/life/me/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>life</category>
-      </categories>
-      <tags>
-        <tag>关于</tag>
-        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
