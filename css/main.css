@@ -1188,6 +1188,7 @@ pre .javascript .function {
   margin-top: 20px;
   padding-left: 0;
   text-align: center;
+  display: flex;
 }
 .menu .menu-item {
   display: inline-block;
@@ -1832,7 +1833,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #1bffff;
+  background: #8eb0ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2713,7 +2714,7 @@ hr {
 }
 @media (max-width: 767px) {
   .menu {
-    margin: 20px 0 0 0;
+    margin: 12px 0 0 0;
     padding: 0;
   }
 }
@@ -2727,7 +2728,7 @@ hr {
   .menu .menu-item {
     display: block;
     padding: 8px 0;
-    border-bottom: 1px dashed #ddd;
+    border-bottom: 0px dashed #ddd;
   }
 }
 .menu .menu-item a {
