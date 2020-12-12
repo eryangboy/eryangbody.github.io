@@ -56,17 +56,34 @@
     <link href="https://eryangboy.github.io/notes/notes/typescript/"/>
     <id>https://eryangboy.github.io/notes/notes/typescript/</id>
     <published>2020-12-12T08:34:41.000Z</published>
-    <updated>2020-12-12T08:32:41.380Z</updated>
+    <updated>2020-12-12T08:33:37.436Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;h1 id=&quot;ES-新特性&quot;&gt;&lt;a href=&quot;#ES-新特性&quot; class=&quot;headerlink&quot; title=&quot;ES 新特性&quot;&gt;&lt;/a&gt;ES 新特性&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;ECMAScript 是 JavaScript</summary>
-        
-      
+&lt;li&gt;&lt;p&gt;ECMAScript 是 JavaScript 的扩展语言&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;JavaScript = ECMAScript + webapi(BOM,DOM)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;ES2015 称之为 ES6&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;不是程序中的方法，而是数学中的函数&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;解决原有语法上的一些问题或者不足&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;对原有语法进行加强&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;全新的对象，全新的方法，全新的功能&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;全新的数据类型和数据结构&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;let 与块级作用域&lt;br&gt; 作用域：全局作用域，函数作用域，块级作用域&lt;/p&gt;
+&lt;p&gt; let 是块级作用域&lt;br&gt; 不会变量提升&lt;br&gt; 暂时性死区&lt;br&gt; 不允许重复声明&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt; const：常量 声明过后不可以再修改&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</summary>
     
     
     
