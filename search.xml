@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>cesh-life</title>
+    <url>/life/life/ceshi/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>life</category>
+      </categories>
+      <tags>
+        <tag>tag3</tag>
+        <tag>tag4</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>ceshi</title>
-    <url>/notes/ceshi/ceshi/</url>
+    <url>/notes/notes/ceshi/</url>
     <content><![CDATA[]]></content>
       <categories>
         <category>notes</category>
       </categories>
+      <tags>
+        <tag>tag1</tag>
+        <tag>tag2</tag>
+      </tags>
   </entry>
 </search>

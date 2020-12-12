@@ -6,7 +6,7 @@
   <link href="https://eryangboy.github.io/atom.xml" rel="self"/>
   
   <link href="https://eryangboy.github.io/"/>
-  <updated>2020-12-12T07:07:13.434Z</updated>
+  <updated>2020-12-12T07:30:29.150Z</updated>
   <id>https://eryangboy.github.io/</id>
   
   <author>
@@ -17,17 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>ceshi</title>
-    <link href="https://eryangboy.github.io/notes/ceshi/ceshi/"/>
-    <id>https://eryangboy.github.io/notes/ceshi/ceshi/</id>
+    <title>cesh-life</title>
+    <link href="https://eryangboy.github.io/life/life/ceshi/"/>
+    <id>https://eryangboy.github.io/life/life/ceshi/</id>
     <published>2020-12-12T06:34:41.000Z</published>
-    <updated>2020-12-12T07:07:13.434Z</updated>
+    <updated>2020-12-12T07:30:29.150Z</updated>
+    
+    
+    
+    
+    <category term="life" scheme="https://eryangboy.github.io/categories/life/"/>
+    
+    
+    <category term="tag3" scheme="https://eryangboy.github.io/tags/tag3/"/>
+    
+    <category term="tag4" scheme="https://eryangboy.github.io/tags/tag4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ceshi</title>
+    <link href="https://eryangboy.github.io/notes/notes/ceshi/"/>
+    <id>https://eryangboy.github.io/notes/notes/ceshi/</id>
+    <published>2020-12-12T06:34:41.000Z</published>
+    <updated>2020-12-12T07:24:45.702Z</updated>
     
     
     
     
     <category term="notes" scheme="https://eryangboy.github.io/categories/notes/"/>
     
+    
+    <category term="tag1" scheme="https://eryangboy.github.io/tags/tag1/"/>
+    
+    <category term="tag2" scheme="https://eryangboy.github.io/tags/tag2/"/>
     
   </entry>
   
