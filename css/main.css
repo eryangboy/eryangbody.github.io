@@ -1833,7 +1833,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6a4593;
+  background: #5cd9ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2889,7 +2889,7 @@ hr {
   display: none;
 }
 .page-post-detail .post-meta {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 .pagination {
   margin: 120px 0 0;
