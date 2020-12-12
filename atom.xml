@@ -6,7 +6,7 @@
   <link href="https://eryangboy.github.io/atom.xml" rel="self"/>
   
   <link href="https://eryangboy.github.io/"/>
-  <updated>2020-12-12T08:24:53.114Z</updated>
+  <updated>2020-12-12T08:31:32.854Z</updated>
   <id>https://eryangboy.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>函数式编程</title>
+    <title>函数式编程与 JS 异步编程</title>
     <link href="https://eryangboy.github.io/notes/notes/functional-programming/"/>
     <id>https://eryangboy.github.io/notes/notes/functional-programming/</id>
     <published>2020-12-12T08:34:41.000Z</published>
-    <updated>2020-12-12T08:24:53.114Z</updated>
+    <updated>2020-12-12T08:31:32.854Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;函数式编程&quot;&gt;&lt;a href=&quot;#函数式编程&quot; class=&quot;headerlink&quot; title=&quot;函数式编程&quot;&gt;&lt;/a&gt;函数式编程&lt;/h1&gt;&lt;ul&gt;
@@ -47,7 +47,37 @@
     
     <category term="function" scheme="https://eryangboy.github.io/tags/function/"/>
     
-    <category term="tag2" scheme="https://eryangboy.github.io/tags/tag2/"/>
+    <category term="promise" scheme="https://eryangboy.github.io/tags/promise/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ES 新特性与 TypeScript、JS 性能优化</title>
+    <link href="https://eryangboy.github.io/notes/notes/typescript/"/>
+    <id>https://eryangboy.github.io/notes/notes/typescript/</id>
+    <published>2020-12-12T08:34:41.000Z</published>
+    <updated>2020-12-12T08:32:41.380Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;ES-新特性&quot;&gt;&lt;a href=&quot;#ES-新特性&quot; class=&quot;headerlink&quot; title=&quot;ES 新特性&quot;&gt;&lt;/a&gt;ES 新特性&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;ECMAScript 是 JavaScript</summary>
+        
+      
+    
+    
+    
+    <category term="notes" scheme="https://eryangboy.github.io/categories/notes/"/>
+    
+    
+    <category term="es6" scheme="https://eryangboy.github.io/tags/es6/"/>
+    
+    <category term="TypeScript" scheme="https://eryangboy.github.io/tags/TypeScript/"/>
+    
+    <category term="js" scheme="https://eryangboy.github.io/tags/js/"/>
     
   </entry>
   
