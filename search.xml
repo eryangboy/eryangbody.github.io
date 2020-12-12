@@ -26,18 +26,20 @@
 </ul>
 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">let</span> fn = <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">   <span class="built_in">console</span>.log(<span class="string">&#x27;hello&#x27;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
+<a id="more"></a>
+</li>
+</ol>
 <ul>
 <li>函数作为参数</li>
 </ul>
 <figure class="highlight zephir"><table><tr><td class="code"><pre><span class="line">functionforEach (<span class="keyword">array</span>, <span class="function"><span class="keyword">fn</span>) </span>&#123;</span><br><span class="line">   <span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; <span class="keyword">array</span>.length; i++) &#123;</span><br><span class="line">      <span class="function"><span class="keyword">fn</span><span class="params">(<span class="keyword">array</span>[i])</span></span></span><br><span class="line"><span class="function">   &#125;</span></span><br><span class="line"><span class="function">&#125;</span></span><br></pre></td></tr></table></figure>
 
-<a id="more"></a>
-
 <ul>
 <li>函数作为返回值</li>
 </ul>
 <figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">makeFn</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">   <span class="keyword">let</span> msg = <span class="string">&#x27;hello&#x27;</span>;</span><br><span class="line">   <span class="keyword">return</span> <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">      <span class="built_in">console</span>.log(msg)</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
+
+<ol start="2">
 <li><p>高阶函数：</p>
 <ul>
 <li><p>可以把函数作为参数传递给另一个函数</p>
@@ -219,25 +221,19 @@
     <title>ES 新特性与 TypeScript、JS 性能优化</title>
     <url>/notes/notes/typescript/</url>
     <content><![CDATA[<h1 id="ES-新特性"><a href="#ES-新特性" class="headerlink" title="ES 新特性"></a>ES 新特性</h1><ul>
-<li><p>ECMAScript 是 JavaScript 的扩展语言</p>
-</li>
-<li><p>JavaScript = ECMAScript + webapi(BOM,DOM)</p>
-</li>
-<li><p>ES2015 称之为 ES6</p>
-</li>
-<li><p>不是程序中的方法，而是数学中的函数</p>
-</li>
-<li><p>解决原有语法上的一些问题或者不足</p>
-</li>
-<li><p>对原有语法进行加强</p>
-</li>
-<li><p>全新的对象，全新的方法，全新的功能</p>
-</li>
-<li><p>全新的数据类型和数据结构</p>
-</li>
+<li>ECMAScript 是 JavaScript 的扩展语言</li>
+<li>JavaScript = ECMAScript + webapi(BOM,DOM)</li>
+<li>ES2015 称之为 ES6</li>
+<li>不是程序中的方法，而是数学中的函数</li>
 </ul>
 <a id="more"></a>
 
+<ul>
+<li>解决原有语法上的一些问题或者不足</li>
+<li>对原有语法进行加强</li>
+<li>全新的对象，全新的方法，全新的功能</li>
+<li>全新的数据类型和数据结构</li>
+</ul>
 <ol>
 <li><p>let 与块级作用域<br> 作用域：全局作用域，函数作用域，块级作用域</p>
 <p> let 是块级作用域<br> 不会变量提升<br> 暂时性死区<br> 不允许重复声明</p>
