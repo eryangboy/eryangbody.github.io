@@ -56,7 +56,7 @@
     <link href="https://eryangboy.github.io/notes/notes/typescript/"/>
     <id>https://eryangboy.github.io/notes/notes/typescript/</id>
     <published>2020-12-12T08:34:41.000Z</published>
-    <updated>2020-12-12T08:33:37.436Z</updated>
+    <updated>2020-12-12T08:35:12.013Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;ES-新特性&quot;&gt;&lt;a href=&quot;#ES-新特性&quot; class=&quot;headerlink&quot; title=&quot;ES 新特性&quot;&gt;&lt;/a&gt;ES 新特性&lt;/h1&gt;&lt;ul&gt;
@@ -76,14 +76,7 @@
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;全新的数据类型和数据结构&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;let 与块级作用域&lt;br&gt; 作用域：全局作用域，函数作用域，块级作用域&lt;/p&gt;
-&lt;p&gt; let 是块级作用域&lt;br&gt; 不会变量提升&lt;br&gt; 暂时性死区&lt;br&gt; 不允许重复声明&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt; const：常量 声明过后不可以再修改&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</summary>
+&lt;/ul&gt;</summary>
     
     
     

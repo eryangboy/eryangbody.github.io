@@ -236,16 +236,14 @@
 <li><p>全新的数据类型和数据结构</p>
 </li>
 </ul>
+<a id="more"></a>
+
 <ol>
 <li><p>let 与块级作用域<br> 作用域：全局作用域，函数作用域，块级作用域</p>
 <p> let 是块级作用域<br> 不会变量提升<br> 暂时性死区<br> 不允许重复声明</p>
 </li>
 <li><p> const：常量 声明过后不可以再修改</p>
 </li>
-</ol>
-<a id="more"></a>
-
-<ol start="3">
 <li><p>数组的解构<br> let arr = [1, 2, 3]<br> const [a,b,c] = arr</p>
 </li>
 <li><p> 对象的结构</p>
