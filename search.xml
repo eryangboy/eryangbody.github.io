@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>:title.md</title>
+    <url>/notes/title-md/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title>me</title>
     <url>/life/life/me/</url>
     <content><![CDATA[]]></content>
@@ -146,8 +151,8 @@
 </li>
 <li><p>事件循环与消息队列</p>
 <ul>
-<li>事件循环：是指主线程重复从消息队列中取消息，执行的过程<br><img src="../img/EventLoop.jpg" alt="事件循环"></li>
-<li>消息队列：是一个先进先出的队列，它里面存放这各种消息。<br><img src="../img/TaskQueue.jpg" alt="消息队列"></li>
+<li>事件循环：是指主线程重复从消息队列中取消息，执行的过程<br><img src="/notes/notes/functional-programming/img/EventLoop.jpg" alt="事件循环"></li>
+<li>消息队列：是一个先进先出的队列，它里面存放这各种消息。<br><img src="/notes/notes/functional-programming/img/TaskQueue.jpg" alt="消息队列"></li>
 </ul>
 </li>
 <li><p>异步编程的几种方式：</p>
