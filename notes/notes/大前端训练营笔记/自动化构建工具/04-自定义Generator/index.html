@@ -75,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="前端脚手架," />
 
 
 
@@ -90,7 +90,7 @@
 
 <meta name="description" content="创建 Generator 模块本质上就是一个 npm 模块  Generator 有基本结构，需要有一个 generators 文件夹，app 文件夹里放生成器所对应的代码  如果有多个 sub Generator，可以在 app 同级创建新的一个生成器目录  Yeoman 的生成器模块名称必须是：generator-&lt; name &gt; 这样的格式 (1) 创建一个文件夹：mkdir g">
 <meta property="og:type" content="article">
-<meta property="og:title" content="二羊的小窝仔">
+<meta property="og:title" content="自定义Generator">
 <meta property="og:url" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/index.html">
 <meta property="og:site_name" content="二羊的小窝仔">
 <meta property="og:description" content="创建 Generator 模块本质上就是一个 npm 模块  Generator 有基本结构，需要有一个 generators 文件夹，app 文件夹里放生成器所对应的代码  如果有多个 sub Generator，可以在 app 同级创建新的一个生成器目录  Yeoman 的生成器模块名称必须是：generator-&lt; name &gt; 这样的格式 (1) 创建一个文件夹：mkdir g">
@@ -113,10 +113,10 @@
 <meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/25.png">
 <meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/23.png">
 <meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/24.png">
-<meta property="article:published_time" content="2020-12-13T06:19:35.273Z">
-<meta property="article:modified_time" content="2020-12-17T15:24:21.405Z">
+<meta property="article:published_time" content="2020-12-17T08:34:41.000Z">
+<meta property="article:modified_time" content="2020-12-19T12:07:10.656Z">
 <meta property="article:author" content="二羊">
-<meta property="article:tag" content="web前端">
+<meta property="article:tag" content="前端脚手架">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/8.png">
 
@@ -154,7 +154,7 @@
 
 
 
-  <title> | 二羊的小窝仔</title>
+  <title>自定义Generator | 二羊的小窝仔</title>
   
 
 
@@ -358,7 +358,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline"></h1>
+          <h1 class="post-title" itemprop="name headline">自定义Generator</h1>
         
 
         <div class="post-meta">
@@ -370,8 +370,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-12-13T14:19:35+08:00">
-                2020-12-13
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-12-17T16:34:41+08:00">
+                2020-12-17
               </time>
             
 
@@ -380,6 +380,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/notes/" itemprop="url" rel="index">
+                    <span itemprop="name">notes</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -523,6 +545,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/" rel="tag"># 前端脚手架</a>
+          
+        </div>
+      
 
       
       
@@ -532,8 +560,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/" rel="next" title="">
-                <i class="fa fa-chevron-left"></i> 
+              <a href="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/05-Plop%E7%AE%80%E4%BB%8B/" rel="next" title="Plop简介">
+                <i class="fa fa-chevron-left"></i> Plop简介
               </a>
             
           </div>
@@ -542,8 +570,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/05-Plop%E7%AE%80%E4%BB%8B/" rel="prev" title="">
-                 <i class="fa fa-chevron-right"></i>
+              <a href="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/" rel="prev" title="前端脚手架工具简介">
+                前端脚手架工具简介 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -645,7 +673,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>

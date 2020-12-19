@@ -218,20 +218,7 @@
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/</url>
-    <content><![CDATA[<h6 id="我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。"><a href="#我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。" class="headerlink" title="我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。"></a>我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。</h6><p>在一个项目中，我们可能会有：</p>
-<p>相同的组织结构<br>相同的开发范式<br>相同的模块依赖<br>相同的工具配置<br>相同的基础代码</p>
-<p>这就造成，我们在开发一个新的项目时，有大量的重复操作要做，脚手架工具就是帮助我们来解决这类问题的。</p>
-<p>比如，以下截图就是我们通过脚手架生成的一个项目结构：</p>
-<p><img src="./images/3.png" alt="avatar"></p>
-<p>我们来看下常用的脚手架工具有哪些：</p>
-<p>react 项目 -&gt; create-react-app<br>vue 项目 -&gt; vue-cli<br>angular 项目 -&gt; angular-cli</p>
-<p>通用型脚手架生成工具：Yeoman（灵活，方便扩展）<br>它是用于创造现代化 web 应用的脚手架工具，不同于其他脚手架工具，yeoman 更像是一个脚手架运行平台。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title></title>
+    <title>前端工程化简介</title>
     <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/01-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96%E7%AE%80%E4%BB%8B/</url>
     <content><![CDATA[<h6 id="前端工程化呢，是指遵循一定的标准和规范，通过工具降低成本、提高效率的一种手段。"><a href="#前端工程化呢，是指遵循一定的标准和规范，通过工具降低成本、提高效率的一种手段。" class="headerlink" title="前端工程化呢，是指遵循一定的标准和规范，通过工具降低成本、提高效率的一种手段。"></a>前端工程化呢，是指遵循一定的标准和规范，通过工具降低成本、提高效率的一种手段。</h6><p>因为前端应用要求不断提高，这些年也被经常探讨。</p>
 <ol>
@@ -248,41 +235,36 @@
 <li>整体依赖后端项目</li>
 </ul>
 <ol start="2">
-<li>工程化表现：<br> 它可以帮助我们提高效率，降低成本，保证质量</li>
-</ol>
-<pre><code>![avatar](./images/1.png)
-
-
-
-我们可以从以上几个方面入手：
-
-创建项目阶段：使用脚手架工具，生成项目结构和特定类型文件
-
-编码阶段：自动化格式化代码，校验代码风格，编译、构建以及打包
-
-预览/调试阶段：借助现代化的 web server，提供热更新的体验。通过 source map，定位代码问题。还可以在后台接口未提供之前，自己 mock 数据。
-
-提交阶段：可以通过 git hooks，做代码质量检查。可以对提交日志（git log），做格式限制。
-
-部署阶段：用一行命令代替手动 ftp 上传，并且实现持续集成，自动化部署。</code></pre>
-<ol start="3">
-<li><p>但是，我们说工程化不等于工具</p>
-<p>工具不是工程化的核心，工程化的核心，指的应该是项目整体的一种规划，或者说是架构。工具只是我们在实现工程化过程当中，使用的一种手段。</p>
-<p>比如说，我们要规范文件的组织结构，代码文件的开发范式（语法、规范、标准），通过什么样的方式作前后端分离。</p>
-<p>我们要考虑搭配哪些工具，做哪些具体的配置选项，来实现工程化整体的一个规划。</p>
-<p>以下是我们常用的成熟的工程化集成：</p>
+<li><p>工程化表现：<br> 它可以帮助我们提高效率，降低成本，保证质量</p>
+<p> <img src="./images/1.png" alt="avatar"></p>
+<p> 我们可以从以上几个方面入手：</p>
+<p> 创建项目阶段：使用脚手架工具，生成项目结构和特定类型文件</p>
+<p> 编码阶段：自动化格式化代码，校验代码风格，编译、构建以及打包</p>
+<p> 预览/调试阶段：借助现代化的 web server，提供热更新的体验。通过 source map，定位代码问题。还可以在后台接口未提供之前，自己 mock 数据。</p>
+<p> 提交阶段：可以通过 git hooks，做代码质量检查。可以对提交日志（git log），做格式限制。</p>
+<p> 部署阶段：用一行命令代替手动 ftp 上传，并且实现持续集成，自动化部署。</p>
 </li>
-</ol>
-<p>   <img src="./images/2.png" alt="avatar"></p>
-<ol start="4">
+<li><p>但是，我们说工程化不等于工具</p>
+<p> 工具不是工程化的核心，工程化的核心，指的应该是项目整体的一种规划，或者说是架构。工具只是我们在实现工程化过程当中，使用的一种手段。</p>
+<p> 比如说，我们要规范文件的组织结构，代码文件的开发范式（语法、规范、标准），通过什么样的方式作前后端分离。</p>
+<p> 我们要考虑搭配哪些工具，做哪些具体的配置选项，来实现工程化整体的一个规划。</p>
+<p> 以下是我们常用的成熟的工程化集成：</p>
+<p> <img src="./images/2.png" alt="avatar"></p>
+</li>
 <li><p>前端的工程化，应该归功于 node.js</p>
-<p>我们平时用的工具，基本上都是 node.js 开发的</p>
+<p> 我们平时用的工具，基本上都是 node.js 开发的</p>
 </li>
 </ol>
 ]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>前端工程化</tag>
+      </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>Yeoman的基本使用</title>
     <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/03-Yeoman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<p>（1）在全局范围安装 yo</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install yo -g</span><br></pre></td></tr></table></figure>
@@ -307,9 +289,34 @@
 <li>生成所需要的项目结构</li>
 </ul>
 ]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>前端脚手架</tag>
+      </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>前端脚手架工具简介</title>
+    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/</url>
+    <content><![CDATA[<h6 id="我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。"><a href="#我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。" class="headerlink" title="我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。"></a>我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。</h6><p>在一个项目中，我们可能会有：</p>
+<p>相同的组织结构<br>相同的开发范式<br>相同的模块依赖<br>相同的工具配置<br>相同的基础代码</p>
+<p>这就造成，我们在开发一个新的项目时，有大量的重复操作要做，脚手架工具就是帮助我们来解决这类问题的。</p>
+<p>比如，以下截图就是我们通过脚手架生成的一个项目结构：</p>
+<p><img src="./images/3.png" alt="avatar"></p>
+<p>我们来看下常用的脚手架工具有哪些：</p>
+<p>react 项目 -&gt; create-react-app<br>vue 项目 -&gt; vue-cli<br>angular 项目 -&gt; angular-cli</p>
+<p>通用型脚手架生成工具：Yeoman（灵活，方便扩展）<br>它是用于创造现代化 web 应用的脚手架工具，不同于其他脚手架工具，yeoman 更像是一个脚手架运行平台。</p>
+]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>前端脚手架</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自定义Generator</title>
     <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/</url>
     <content><![CDATA[<h2 id="创建-Generator-模块"><a href="#创建-Generator-模块" class="headerlink" title="创建 Generator 模块"></a>创建 Generator 模块</h2><p>本质上就是一个 npm 模块</p>
 <p><img src="./images/8.png" alt="avatar"></p>
@@ -378,9 +385,15 @@
 <p><img src="./images/23.png" alt="avatar"></p>
 <p><img src="./images/24.png" alt="avatar"></p>
 ]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>前端脚手架</tag>
+      </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>Plop简介</title>
     <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/05-Plop%E7%AE%80%E4%BB%8B/</url>
     <content><![CDATA[<p>Plog 用来创建重复文件，可以提高我们的开发效率</p>
 <p>plopfile.js 为 Plop 入口文件，需要导出一个函数<br>此函数接收一个 plop 对象，用于创建生成器任务</p>
@@ -392,25 +405,15 @@
 <li>通过 Plop 提供的 CLI 运行脚手架任务</li>
 </ul>
 ]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>前端脚手架</tag>
+      </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/06-%E8%84%9A%E6%89%8B%E6%9E%B6%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</url>
-    <content><![CDATA[<h2 id="脚手架的工作原理："><a href="#脚手架的工作原理：" class="headerlink" title="脚手架的工作原理："></a>脚手架的工作原理：</h2><ul>
-<li>通过命令行交互查询用户问题</li>
-<li>根据用户回答的结果生成文件</li>
-</ul>
-<p>(1) 首先呢，我们创建一个文件夹：mkdir sample-scaffolding<br>(2) 进入文件夹目录：cd sample-scaffolding<br>(3) 初始化 package.json 文件：npm init<br>(4) 在 package.json 文件中指定 cli 应用的入口文件</p>
-<p><img src="./images/26.png" alt="avator"></p>
-<p>(5) 创建 cli.js 文件，并且设置头部为 #!/usr/bin/env node</p>
-<p><img src="./images/27.png" alt="avator"></p>
-<p>(6) 通过 npm link 链接到全局</p>
-<p>(7) 配置询问用户信息，需要安装 inquirur 模块：npm install inquirur<br>(8) 配置过程，详细看以下代码</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/env node</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// Node CLI 应用入口文件必须要有这样的文件头</span></span><br><span class="line"><span class="comment">// 如果是 Linux 或者 maxOS 系统下还要修改此文件的读写权限为 755</span></span><br><span class="line"><span class="comment">// 具体通过 chmod 755 cli.js 实现修改</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 脚手架的工作过程：</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// console.log(&quot;cli working&quot;);</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> inquirur = <span class="built_in">require</span>(<span class="string">&quot;inquirer&quot;</span>); <span class="comment">// 询问用户信息模块</span></span><br><span class="line"><span class="keyword">const</span> path = <span class="built_in">require</span>(<span class="string">&quot;path&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">&quot;fs&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> ejs = <span class="built_in">require</span>(<span class="string">&quot;ejs&quot;</span>); <span class="comment">// 模版引擎</span></span><br><span class="line"></span><br><span class="line">inquirur</span><br><span class="line">  .prompt([</span><br><span class="line">    &#123;</span><br><span class="line">      type: <span class="string">&quot;input&quot;</span>, <span class="comment">// 问题输入方式</span></span><br><span class="line">      name: <span class="string">&quot;name&quot;</span>, <span class="comment">// 问题返回的键</span></span><br><span class="line">      message: <span class="string">&quot;your project name&quot;</span>, <span class="comment">// 提示信息</span></span><br><span class="line">    &#125;,</span><br><span class="line">  ])</span><br><span class="line">  .then(<span class="function">(<span class="params">answers</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="comment">// answers 为用户回答的答案</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 根据用户回答的结果生成文件</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// console.log(answers);</span></span><br><span class="line">    <span class="comment">// _dirname 为当前目录</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 模板目录</span></span><br><span class="line">    <span class="keyword">const</span> tmplDir = path.join(__dirname, <span class="string">&quot;templates&quot;</span>);</span><br><span class="line">    <span class="comment">// console.log(__dirname, tmplDir);</span></span><br><span class="line">    <span class="comment">// /Users/eryang/sample-scaffolding /Users/eryang/sample-scaffolding/templates</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 目标目录</span></span><br><span class="line">    <span class="keyword">const</span> destDir = process.cwd();</span><br><span class="line">    <span class="comment">// console.log(destDir);</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 将模板下的文件，全部放到目标目录</span></span><br><span class="line">    fs.readdir(tmplDir, <span class="function">(<span class="params">err, files</span>) =&gt;</span> &#123;</span><br><span class="line">      <span class="keyword">if</span> (err) <span class="keyword">throw</span> err;</span><br><span class="line">      <span class="comment">//   console.log(files);   --   [ &#x27;index.html&#x27;, &#x27;style.css&#x27; ]</span></span><br><span class="line">      files.forEach(<span class="function">(<span class="params">file</span>) =&gt;</span> &#123;</span><br><span class="line">        <span class="comment">// 通过模版引擎渲染文件</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">// renderFile参数为：路径，数据，回调函数</span></span><br><span class="line">        ejs.renderFile(path.join(tmplDir, file), answers, <span class="function">(<span class="params">err, result</span>) =&gt;</span> &#123;</span><br><span class="line">          <span class="keyword">if</span> (err) <span class="keyword">throw</span> err;</span><br><span class="line">          <span class="comment">//   console.log(result);</span></span><br><span class="line">          <span class="comment">// 将结果写入目标文件路径</span></span><br><span class="line">          fs.writeFileSync(path.join(destDir, file), result);</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;);</span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure>
-]]></content>
-  </entry>
-  <entry>
-    <title></title>
+    <title>自动化构建简介</title>
     <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/</url>
     <content><![CDATA[<h1 id="自动化构建"><a href="#自动化构建" class="headerlink" title="自动化构建"></a>自动化构建</h1><p>说白了，就是把我们开发阶段的源代码，自动化的去转换成生产环境可以运行的代码或者程序。<br>我们一般称它为：自动化构建工作流</p>
 <p><img src="./images/28.png" alt="avatar"></p>
@@ -424,9 +427,37 @@
 </li>
 </ul>
 ]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>自动化构建</tag>
+      </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>脚手架的工作原理</title>
+    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/06-%E8%84%9A%E6%89%8B%E6%9E%B6%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</url>
+    <content><![CDATA[<h2 id="脚手架的工作原理："><a href="#脚手架的工作原理：" class="headerlink" title="脚手架的工作原理："></a>脚手架的工作原理：</h2><ul>
+<li>通过命令行交互查询用户问题</li>
+<li>根据用户回答的结果生成文件</li>
+</ul>
+<p>(1) 首先呢，我们创建一个文件夹：mkdir sample-scaffolding<br>(2) 进入文件夹目录：cd sample-scaffolding<br>(3) 初始化 package.json 文件：npm init<br>(4) 在 package.json 文件中指定 cli 应用的入口文件</p>
+<p><img src="./images/26.png" alt="avator"></p>
+<p>(5) 创建 cli.js 文件，并且设置头部为 #!/usr/bin/env node</p>
+<p><img src="./images/27.png" alt="avator"></p>
+<p>(6) 通过 npm link 链接到全局</p>
+<p>(7) 配置询问用户信息，需要安装 inquirur 模块：npm install inquirur<br>(8) 配置过程，详细看以下代码</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/env node</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// Node CLI 应用入口文件必须要有这样的文件头</span></span><br><span class="line"><span class="comment">// 如果是 Linux 或者 maxOS 系统下还要修改此文件的读写权限为 755</span></span><br><span class="line"><span class="comment">// 具体通过 chmod 755 cli.js 实现修改</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 脚手架的工作过程：</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// console.log(&quot;cli working&quot;);</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> inquirur = <span class="built_in">require</span>(<span class="string">&quot;inquirer&quot;</span>); <span class="comment">// 询问用户信息模块</span></span><br><span class="line"><span class="keyword">const</span> path = <span class="built_in">require</span>(<span class="string">&quot;path&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">&quot;fs&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> ejs = <span class="built_in">require</span>(<span class="string">&quot;ejs&quot;</span>); <span class="comment">// 模版引擎</span></span><br><span class="line"></span><br><span class="line">inquirur</span><br><span class="line">  .prompt([</span><br><span class="line">    &#123;</span><br><span class="line">      type: <span class="string">&quot;input&quot;</span>, <span class="comment">// 问题输入方式</span></span><br><span class="line">      name: <span class="string">&quot;name&quot;</span>, <span class="comment">// 问题返回的键</span></span><br><span class="line">      message: <span class="string">&quot;your project name&quot;</span>, <span class="comment">// 提示信息</span></span><br><span class="line">    &#125;,</span><br><span class="line">  ])</span><br><span class="line">  .then(<span class="function">(<span class="params">answers</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="comment">// answers 为用户回答的答案</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 根据用户回答的结果生成文件</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// console.log(answers);</span></span><br><span class="line">    <span class="comment">// _dirname 为当前目录</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 模板目录</span></span><br><span class="line">    <span class="keyword">const</span> tmplDir = path.join(__dirname, <span class="string">&quot;templates&quot;</span>);</span><br><span class="line">    <span class="comment">// console.log(__dirname, tmplDir);</span></span><br><span class="line">    <span class="comment">// /Users/eryang/sample-scaffolding /Users/eryang/sample-scaffolding/templates</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 目标目录</span></span><br><span class="line">    <span class="keyword">const</span> destDir = process.cwd();</span><br><span class="line">    <span class="comment">// console.log(destDir);</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 将模板下的文件，全部放到目标目录</span></span><br><span class="line">    fs.readdir(tmplDir, <span class="function">(<span class="params">err, files</span>) =&gt;</span> &#123;</span><br><span class="line">      <span class="keyword">if</span> (err) <span class="keyword">throw</span> err;</span><br><span class="line">      <span class="comment">//   console.log(files);   --   [ &#x27;index.html&#x27;, &#x27;style.css&#x27; ]</span></span><br><span class="line">      files.forEach(<span class="function">(<span class="params">file</span>) =&gt;</span> &#123;</span><br><span class="line">        <span class="comment">// 通过模版引擎渲染文件</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">// renderFile参数为：路径，数据，回调函数</span></span><br><span class="line">        ejs.renderFile(path.join(tmplDir, file), answers, <span class="function">(<span class="params">err, result</span>) =&gt;</span> &#123;</span><br><span class="line">          <span class="keyword">if</span> (err) <span class="keyword">throw</span> err;</span><br><span class="line">          <span class="comment">//   console.log(result);</span></span><br><span class="line">          <span class="comment">// 将结果写入目标文件路径</span></span><br><span class="line">          fs.writeFileSync(path.join(destDir, file), result);</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;);</span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>前端脚手架</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>gulp基本使用</title>
     <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/08-gulp%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<h2 id="gulp-基本使用"><a href="#gulp-基本使用" class="headerlink" title="gulp 基本使用"></a>gulp 基本使用</h2><p>当下最流行的前端构建系统，高效、易用</p>
 <ol>
@@ -440,8 +471,6 @@
 </li>
 </ol>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">exports</span>.foo = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;gulp working&quot;</span>);</span><br><span class="line">  done(); <span class="comment">// 标识任务完成</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-
 
 <p><img src="./images/29.png" alt="avator"></p>
 <p>执行 gulp foo，会报一个错误，这是因为 gulp 约定每一个任务都是异步任务，需要调用一个回调参数标记任务完成</p>
@@ -503,9 +532,15 @@
 </ol>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; src, dest &#125; = <span class="built_in">require</span>(<span class="string">&quot;gulp&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> cssClean = <span class="built_in">require</span>(<span class="string">&quot;gulp-clean-css&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> rename = <span class="built_in">require</span>(<span class="string">&quot;gulp-rename&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">exports</span>.default = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">return</span> src(<span class="string">&quot;src/*.css&quot;</span>)</span><br><span class="line">    .pipe(cssClean())</span><br><span class="line">    .pipe(rename(&#123; <span class="attr">extname</span>: <span class="string">&quot;.min.css&quot;</span> &#125;))</span><br><span class="line">    .pipe(dest(<span class="string">&quot;dist&quot;</span>));</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 ]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>自动化构建</tag>
+      </tags>
   </entry>
   <entry>
-    <title></title>
+    <title>gulp自动化构建案例</title>
     <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/09-gulp%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E6%A1%88%E4%BE%8B/</url>
     <content><![CDATA[<h1 id="gulp-自动化构建案例"><a href="#gulp-自动化构建案例" class="headerlink" title="gulp 自动化构建案例"></a>gulp 自动化构建案例</h1><ol>
 <li>首先安装 gulp，作为开发依赖</li>
@@ -643,6 +678,12 @@
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  build,</span><br><span class="line">  clean,</span><br><span class="line">  develop,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 <h1 id="封装工作流"><a href="#封装工作流" class="headerlink" title="封装工作流"></a>封装工作流</h1>]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>自动化构建</tag>
+      </tags>
   </entry>
   <entry>
     <title>ES 新特性与 TypeScript、JS 性能优化</title>
