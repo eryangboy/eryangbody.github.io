@@ -6,7 +6,7 @@
   <link href="https://eryangboy.github.io/atom.xml" rel="self"/>
   
   <link href="https://eryangboy.github.io/"/>
-  <updated>2020-12-19T12:30:59.573Z</updated>
+  <updated>2020-12-19T12:39:45.461Z</updated>
   <id>https://eryangboy.github.io/</id>
   
   <author>
@@ -21,16 +21,12 @@
     <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/01-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96%E7%AE%80%E4%BB%8B/"/>
     <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/01-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96%E7%AE%80%E4%BB%8B/</id>
     <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:30:59.573Z</updated>
+    <updated>2020-12-19T12:39:45.461Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h6 id=&quot;前端工程化呢，是指遵循一定的标准和规范，通过工具降低成本、提高效率的一种手段。&quot;&gt;&lt;a href=&quot;#前端工程化呢，是指遵循一定的标准和规范，通过工具降低成本、提高效率的一种手段。&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">&lt;h6 id=&quot;前端工程化呢，是指遵循一定的标准和规范，通过工具降低成本、提高效率的一种手段。&quot;&gt;&lt;a href=&quot;#前端工程化呢，是指遵循一定的标准和规范，通过工具降低成本、提高效率的一种手段。&quot; class=&quot;headerlink&quot; title=&quot;前端工程化呢，是指遵循一定的标准和规范，通过工具降低成本、提高效率的一种手段。&quot;&gt;&lt;/a&gt;前端工程化呢，是指遵循一定的标准和规范，通过工具降低成本、提高效率的一种手段。&lt;/h6&gt;&lt;p&gt;因为前端应用要求不断提高，这些年也被经常探讨。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;前端工程化，也是为了解决我们目前存在的一些问题？&lt;br&gt;（1）想用 es6 新语法，但是有兼容性问题&lt;br&gt;（2）想用 less 或者是 sass 增强 css 的编程性，但是运行环境不支持&lt;br&gt;（3）想用模块化的方式提高项目的可维护性，但是运行环境不能直接支持&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
     
     
     
@@ -46,42 +42,11 @@
     <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/"/>
     <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/</id>
     <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:31:12.241Z</updated>
+    <updated>2020-12-19T12:39:52.091Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h6 id=&quot;我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。&quot;&gt;&lt;a href=&quot;#我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="notes" scheme="https://eryangboy.github.io/categories/notes/"/>
-    
-    
-    <category term="前端脚手架" scheme="https://eryangboy.github.io/tags/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Yeoman的基本使用</title>
-    <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/03-Yeoman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
-    <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/03-Yeoman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</id>
-    <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:31:15.881Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;（1）在全局范围安装 yo&lt;/p&gt;
-&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td</summary>
-        
-      
+    <summary type="html">&lt;h6 id=&quot;我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。&quot;&gt;&lt;a href=&quot;#我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。&quot; class=&quot;headerlink&quot; title=&quot;我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。&quot;&gt;&lt;/a&gt;我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。&lt;/h6&gt;&lt;p&gt;在一个项目中，我们可能会有：&lt;/p&gt;
+&lt;p&gt;相同的组织结构&lt;br&gt;相同的开发范式&lt;br&gt;相同的模块依赖&lt;br&gt;相同的工具配置&lt;br&gt;相同的基础代码&lt;/p&gt;</summary>
     
     
     
@@ -97,16 +62,36 @@
     <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/"/>
     <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/</id>
     <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:31:19.509Z</updated>
+    <updated>2020-12-19T12:40:07.328Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;创建-Generator-模块&quot;&gt;&lt;a href=&quot;#创建-Generator-模块&quot; class=&quot;headerlink&quot; title=&quot;创建 Generator 模块&quot;&gt;&lt;/a&gt;创建 Generator 模块&lt;/h2&gt;&lt;p&gt;本质上就是一个 npm</summary>
-        
-      
+    <summary type="html">&lt;h2 id=&quot;创建-Generator-模块&quot;&gt;&lt;a href=&quot;#创建-Generator-模块&quot; class=&quot;headerlink&quot; title=&quot;创建 Generator 模块&quot;&gt;&lt;/a&gt;创建 Generator 模块&lt;/h2&gt;&lt;p&gt;本质上就是一个 npm 模块&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/2020-12-17/8.png&quot; alt=&quot;avatar&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Generator 有基本结构，需要有一个 generators 文件夹，app 文件夹里放生成器所对应的代码&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/2020-12-17/9.png&quot; alt=&quot;avatar&quot;&gt;&lt;/p&gt;
+&lt;p&gt;如果有多个 sub Generator，可以在 app 同级创建新的一个生成器目录&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="notes" scheme="https://eryangboy.github.io/categories/notes/"/>
+    
+    
+    <category term="前端脚手架" scheme="https://eryangboy.github.io/tags/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Yeoman的基本使用</title>
+    <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/03-Yeoman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
+    <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/03-Yeoman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</id>
+    <published>2020-12-17T08:34:41.000Z</published>
+    <updated>2020-12-19T12:39:59.522Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;（1）在全局范围安装 yo&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm install yo -g&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/03-Yeoman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/2020-12-17/4.png&quot; alt=&quot;avatar&quot;&gt;&lt;/p&gt;</summary>
     
     
     
@@ -150,16 +135,14 @@
     <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/06-%E8%84%9A%E6%89%8B%E6%9E%B6%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/"/>
     <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/06-%E8%84%9A%E6%89%8B%E6%9E%B6%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</id>
     <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:31:24.501Z</updated>
+    <updated>2020-12-19T12:40:16.578Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;脚手架的工作原理：&quot;&gt;&lt;a href=&quot;#脚手架的工作原理：&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">&lt;h2 id=&quot;脚手架的工作原理：&quot;&gt;&lt;a href=&quot;#脚手架的工作原理：&quot; class=&quot;headerlink&quot; title=&quot;脚手架的工作原理：&quot;&gt;&lt;/a&gt;脚手架的工作原理：&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;通过命令行交互查询用户问题&lt;/li&gt;
+&lt;li&gt;根据用户回答的结果生成文件&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(1) 首先呢，我们创建一个文件夹：mkdir sample-scaffolding&lt;br&gt;(2) 进入文件夹目录：cd sample-scaffolding&lt;br&gt;(3) 初始化 package.json 文件：npm init&lt;br&gt;(4) 在 package.json 文件中指定 cli 应用的入口文件&lt;/p&gt;</summary>
     
     
     
@@ -171,20 +154,22 @@
   </entry>
   
   <entry>
-    <title>自动化构建简介</title>
-    <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/"/>
-    <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/</id>
+    <title>gulp基本使用</title>
+    <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/08-gulp%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
+    <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/08-gulp%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</id>
     <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:31:28.143Z</updated>
+    <updated>2020-12-19T12:40:28.863Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;自动化构建&quot;&gt;&lt;a href=&quot;#自动化构建&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">&lt;h2 id=&quot;gulp-基本使用&quot;&gt;&lt;a href=&quot;#gulp-基本使用&quot; class=&quot;headerlink&quot; title=&quot;gulp 基本使用&quot;&gt;&lt;/a&gt;gulp 基本使用&lt;/h2&gt;&lt;p&gt;当下最流行的前端构建系统，高效、易用&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;初始化 package.json：npm init -yes&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;安装 gulp：npm install gulp -dev&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;创建入口文件 gulpfile.js&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;需要导出一个函数&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
     
     
     
@@ -196,22 +181,16 @@
   </entry>
   
   <entry>
-    <title>gulp基本使用</title>
-    <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/08-gulp%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
-    <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/08-gulp%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</id>
+    <title>自动化构建简介</title>
+    <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/"/>
+    <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/</id>
     <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:32:04.664Z</updated>
+    <updated>2020-12-19T12:40:21.733Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;gulp-基本使用&quot;&gt;&lt;a href=&quot;#gulp-基本使用&quot; class=&quot;headerlink&quot; title=&quot;gulp 基本使用&quot;&gt;&lt;/a&gt;gulp 基本使用&lt;/h2&gt;&lt;p&gt;当下最流行的前端构建系统，高效、易用&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;初始化</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;自动化构建&quot;&gt;&lt;a href=&quot;#自动化构建&quot; class=&quot;headerlink&quot; title=&quot;自动化构建&quot;&gt;&lt;/a&gt;自动化构建&lt;/h1&gt;&lt;p&gt;说白了，就是把我们开发阶段的源代码，自动化的去转换成生产环境可以运行的代码或者程序。&lt;br&gt;我们一般称它为：自动化构建工作流&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/2020-12-17/28.png&quot; alt=&quot;avatar&quot;&gt;&lt;/p&gt;
+&lt;p&gt;它的作用，是让我们脱离运行环境兼容带来的种种问题，在开发阶段使用提高效率的语法、规范和标准&lt;/p&gt;</summary>
     
     
     
@@ -227,17 +206,16 @@
     <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/09-gulp%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E6%A1%88%E4%BE%8B/"/>
     <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/09-gulp%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E6%A1%88%E4%BE%8B/</id>
     <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:32:39.899Z</updated>
+    <updated>2020-12-19T12:40:35.397Z</updated>
     
     
-      
-      
-        
-        
     <summary type="html">&lt;h1 id=&quot;gulp-自动化构建案例&quot;&gt;&lt;a href=&quot;#gulp-自动化构建案例&quot; class=&quot;headerlink&quot; title=&quot;gulp 自动化构建案例&quot;&gt;&lt;/a&gt;gulp 自动化构建案例&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;首先安装</summary>
-        
-      
+&lt;li&gt;首先安装 gulp，作为开发依赖&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&quot;highlight cmake&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;npm &lt;span class=&quot;keyword&quot;&gt;install&lt;/span&gt; gulp -dev&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;&lt;p&gt;处理 sass 文件&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</summary>
     
     
     
