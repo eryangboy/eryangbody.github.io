@@ -6,7 +6,7 @@
   <link href="https://eryangboy.github.io/atom.xml" rel="self"/>
   
   <link href="https://eryangboy.github.io/"/>
-  <updated>2020-12-19T12:06:06.046Z</updated>
+  <updated>2020-12-19T12:30:59.573Z</updated>
   <id>https://eryangboy.github.io/</id>
   
   <author>
@@ -17,36 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>前端脚手架工具简介</title>
-    <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/"/>
-    <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/</id>
-    <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:06:06.046Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h6 id=&quot;我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。&quot;&gt;&lt;a href=&quot;#我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="notes" scheme="https://eryangboy.github.io/categories/notes/"/>
-    
-    
-    <category term="前端脚手架" scheme="https://eryangboy.github.io/tags/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/"/>
-    
-  </entry>
-  
-  <entry>
     <title>前端工程化简介</title>
     <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/01-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96%E7%AE%80%E4%BB%8B/"/>
     <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/01-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96%E7%AE%80%E4%BB%8B/</id>
     <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:29:07.137Z</updated>
+    <updated>2020-12-19T12:30:59.573Z</updated>
     
     
       
@@ -71,7 +46,7 @@
     <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/03-Yeoman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
     <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/03-Yeoman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</id>
     <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:06:43.684Z</updated>
+    <updated>2020-12-19T12:31:15.881Z</updated>
     
     
       
@@ -93,11 +68,36 @@
   </entry>
   
   <entry>
+    <title>前端脚手架工具简介</title>
+    <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/"/>
+    <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/</id>
+    <published>2020-12-17T08:34:41.000Z</published>
+    <updated>2020-12-19T12:31:12.241Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h6 id=&quot;我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。&quot;&gt;&lt;a href=&quot;#我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="notes" scheme="https://eryangboy.github.io/categories/notes/"/>
+    
+    
+    <category term="前端脚手架" scheme="https://eryangboy.github.io/tags/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/"/>
+    
+  </entry>
+  
+  <entry>
     <title>自定义Generator</title>
     <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/"/>
     <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/</id>
     <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:07:10.656Z</updated>
+    <updated>2020-12-19T12:31:19.509Z</updated>
     
     
       
@@ -114,31 +114,6 @@
     
     
     <category term="前端脚手架" scheme="https://eryangboy.github.io/tags/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>自动化构建简介</title>
-    <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/"/>
-    <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/</id>
-    <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:09:02.128Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;自动化构建&quot;&gt;&lt;a href=&quot;#自动化构建&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="notes" scheme="https://eryangboy.github.io/categories/notes/"/>
-    
-    
-    <category term="自动化构建" scheme="https://eryangboy.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/"/>
     
   </entry>
   
@@ -175,7 +150,7 @@
     <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/06-%E8%84%9A%E6%89%8B%E6%9E%B6%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/"/>
     <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/06-%E8%84%9A%E6%89%8B%E6%9E%B6%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</id>
     <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:08:03.532Z</updated>
+    <updated>2020-12-19T12:31:24.501Z</updated>
     
     
       
@@ -200,7 +175,7 @@
     <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/08-gulp%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/"/>
     <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/08-gulp%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</id>
     <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:08:43.715Z</updated>
+    <updated>2020-12-19T12:32:04.664Z</updated>
     
     
       
@@ -223,11 +198,36 @@
   </entry>
   
   <entry>
+    <title>自动化构建简介</title>
+    <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/"/>
+    <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/</id>
+    <published>2020-12-17T08:34:41.000Z</published>
+    <updated>2020-12-19T12:31:28.143Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;自动化构建&quot;&gt;&lt;a href=&quot;#自动化构建&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="notes" scheme="https://eryangboy.github.io/categories/notes/"/>
+    
+    
+    <category term="自动化构建" scheme="https://eryangboy.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
     <title>gulp自动化构建案例</title>
     <link href="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/09-gulp%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E6%A1%88%E4%BE%8B/"/>
     <id>https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/09-gulp%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E6%A1%88%E4%BE%8B/</id>
     <published>2020-12-17T08:34:41.000Z</published>
-    <updated>2020-12-19T12:09:19.801Z</updated>
+    <updated>2020-12-19T12:32:39.899Z</updated>
     
     
       
