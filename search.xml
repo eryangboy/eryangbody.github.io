@@ -267,27 +267,6 @@
       </tags>
   </entry>
   <entry>
-    <title>前端脚手架工具简介</title>
-    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/</url>
-    <content><![CDATA[<h6 id="我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。"><a href="#我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。" class="headerlink" title="我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。"></a>我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。</h6><p>在一个项目中，我们可能会有：</p>
-<p>相同的组织结构<br>相同的开发范式<br>相同的模块依赖<br>相同的工具配置<br>相同的基础代码</p>
-  <a id="more"></a>
-
-<p>这就造成，我们在开发一个新的项目时，有大量的重复操作要做，脚手架工具就是帮助我们来解决这类问题的。</p>
-<p>比如，以下截图就是我们通过脚手架生成的一个项目结构：</p>
-<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/2020-12-17/3.png" alt="avatar"></p>
-<p>我们来看下常用的脚手架工具有哪些：</p>
-<p>react 项目 -&gt; create-react-app<br>vue 项目 -&gt; vue-cli<br>angular 项目 -&gt; angular-cli</p>
-<p>通用型脚手架生成工具：Yeoman（灵活，方便扩展）<br>它是用于创造现代化 web 应用的脚手架工具，不同于其他脚手架工具，yeoman 更像是一个脚手架运行平台。</p>
-]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>前端脚手架</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Yeoman的基本使用</title>
     <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/03-Yeoman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<p>（1）在全局范围安装 yo</p>
@@ -314,6 +293,27 @@
 <li>通过命令行交互填写选项</li>
 <li>生成所需要的项目结构</li>
 </ul>
+]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>前端脚手架</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>前端脚手架工具简介</title>
+    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/</url>
+    <content><![CDATA[<h6 id="我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。"><a href="#我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。" class="headerlink" title="我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。"></a>我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。</h6><p>在一个项目中，我们可能会有：</p>
+<p>相同的组织结构<br>相同的开发范式<br>相同的模块依赖<br>相同的工具配置<br>相同的基础代码</p>
+  <a id="more"></a>
+
+<p>这就造成，我们在开发一个新的项目时，有大量的重复操作要做，脚手架工具就是帮助我们来解决这类问题的。</p>
+<p>比如，以下截图就是我们通过脚手架生成的一个项目结构：</p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/2020-12-17/3.png" alt="avatar"></p>
+<p>我们来看下常用的脚手架工具有哪些：</p>
+<p>react 项目 -&gt; create-react-app<br>vue 项目 -&gt; vue-cli<br>angular 项目 -&gt; angular-cli</p>
+<p>通用型脚手架生成工具：Yeoman（灵活，方便扩展）<br>它是用于创造现代化 web 应用的脚手架工具，不同于其他脚手架工具，yeoman 更像是一个脚手架运行平台。</p>
 ]]></content>
       <categories>
         <category>notes</category>
@@ -422,30 +422,6 @@
       </tags>
   </entry>
   <entry>
-    <title>自动化构建简介</title>
-    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/</url>
-    <content><![CDATA[<h1 id="自动化构建"><a href="#自动化构建" class="headerlink" title="自动化构建"></a>自动化构建</h1><p>说白了，就是把我们开发阶段的源代码，自动化的去转换成生产环境可以运行的代码或者程序。<br>我们一般称它为：自动化构建工作流</p>
-<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/2020-12-17/28.png" alt="avatar"></p>
-<p>它的作用，是让我们脱离运行环境兼容带来的种种问题，在开发阶段使用提高效率的语法、规范和标准</p>
-  <a id="more"></a>
-
-<h3 id="常用的自动化构建工具"><a href="#常用的自动化构建工具" class="headerlink" title="常用的自动化构建工具"></a>常用的自动化构建工具</h3><ul>
-<li><p>grunt 是最早的前端构建系统，插件生态完善，但是它的工作过程是基于临时文件实现的，所以构建速度较慢，例如：用它对工程中的 sass 文件的构建，一般会对 sass 文件做编译操作，再去添加一些私有属性的前缀，再去压缩代码。这些步骤 grunt 每一步都有磁盘读取操作。</p>
-</li>
-<li><p>Gulp 基于内存实现的，对文件的处理都是在内存中实现，速度快一些，默认同时支持多个任务，这是当下最流行的。</p>
-</li>
-<li><p>Fis 是百度前端团队研发的，最早只是在内部使用，适合初学者</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>自动化构建</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>脚手架的工作原理</title>
     <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/06-%E8%84%9A%E6%89%8B%E6%9E%B6%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/</url>
     <content><![CDATA[<h2 id="脚手架的工作原理："><a href="#脚手架的工作原理：" class="headerlink" title="脚手架的工作原理："></a>脚手架的工作原理：</h2><ul>
@@ -467,6 +443,30 @@
       </categories>
       <tags>
         <tag>前端脚手架</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>自动化构建简介</title>
+    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/</url>
+    <content><![CDATA[<h1 id="自动化构建"><a href="#自动化构建" class="headerlink" title="自动化构建"></a>自动化构建</h1><p>说白了，就是把我们开发阶段的源代码，自动化的去转换成生产环境可以运行的代码或者程序。<br>我们一般称它为：自动化构建工作流</p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/2020-12-17/28.png" alt="avatar"></p>
+<p>它的作用，是让我们脱离运行环境兼容带来的种种问题，在开发阶段使用提高效率的语法、规范和标准</p>
+  <a id="more"></a>
+
+<h3 id="常用的自动化构建工具"><a href="#常用的自动化构建工具" class="headerlink" title="常用的自动化构建工具"></a>常用的自动化构建工具</h3><ul>
+<li><p>grunt 是最早的前端构建系统，插件生态完善，但是它的工作过程是基于临时文件实现的，所以构建速度较慢，例如：用它对工程中的 sass 文件的构建，一般会对 sass 文件做编译操作，再去添加一些私有属性的前缀，再去压缩代码。这些步骤 grunt 每一步都有磁盘读取操作。</p>
+</li>
+<li><p>Gulp 基于内存实现的，对文件的处理都是在内存中实现，速度快一些，默认同时支持多个任务，这是当下最流行的。</p>
+</li>
+<li><p>Fis 是百度前端团队研发的，最早只是在内部使用，适合初学者</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>自动化构建</tag>
       </tags>
   </entry>
   <entry>
