@@ -236,7 +236,7 @@
 </ul>
 <ol start="2">
 <li><p>工程化表现：<br> 它可以帮助我们提高效率，降低成本，保证质量</p>
-<p> <img src="./images/1.png" alt="avatar"></p>
+<p> <img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/01-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96%E7%AE%80%E4%BB%8B/1.png" alt="avatar"></p>
 <p> 我们可以从以上几个方面入手：</p>
 <p> 创建项目阶段：使用脚手架工具，生成项目结构和特定类型文件</p>
 <p> 编码阶段：自动化格式化代码，校验代码风格，编译、构建以及打包</p>
@@ -249,7 +249,7 @@
 <p> 比如说，我们要规范文件的组织结构，代码文件的开发范式（语法、规范、标准），通过什么样的方式作前后端分离。</p>
 <p> 我们要考虑搭配哪些工具，做哪些具体的配置选项，来实现工程化整体的一个规划。</p>
 <p> 以下是我们常用的成熟的工程化集成：</p>
-<p> <img src="./images/2.png" alt="avatar"></p>
+<p> <img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/01-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96%E7%AE%80%E4%BB%8B/2.png" alt="avatar"></p>
 </li>
 <li><p>前端的工程化，应该归功于 node.js</p>
 <p> 我们平时用的工具，基本上都是 node.js 开发的</p>
@@ -264,69 +264,17 @@
       </tags>
   </entry>
   <entry>
-    <title>Yeoman的基本使用</title>
-    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/03-Yeoman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<p>（1）在全局范围安装 yo</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install yo -g</span><br></pre></td></tr></table></figure>
-
-<p><img src="./images/4.png" alt="avatar"></p>
-<p>(2) 安装对应的 generator</p>
-<p>npm install generator-node -g</p>
-<p><img src="./images/5.png" alt="avatar"></p>
-<p>(3) 创建一个新的文件夹：mkdir eryang-module</p>
-<p>(4) 进入文件夹： cd eryang-module</p>
-<p>(5) 通过 yo 运行 generator</p>
-<p>yo node</p>
-<p>根据命令行交互填写完成，生成一个目录结构，如下图：</p>
-<p><img src="./images/6.png" alt="avatar"></p>
-<p><img src="./images/7.png" alt="avatar"></p>
-<h2 id="Yeoman-常规使用步骤"><a href="#Yeoman-常规使用步骤" class="headerlink" title="Yeoman 常规使用步骤"></a>Yeoman 常规使用步骤</h2><ul>
-<li>明确需求</li>
-<li>找到合适的 Generator</li>
-<li>全局范围安装找到的 Generator</li>
-<li>通过 yo 运行对应的 Generator</li>
-<li>通过命令行交互填写选项</li>
-<li>生成所需要的项目结构</li>
-</ul>
-]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>前端脚手架</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>前端脚手架工具简介</title>
-    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/</url>
-    <content><![CDATA[<h6 id="我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。"><a href="#我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。" class="headerlink" title="我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。"></a>我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。</h6><p>在一个项目中，我们可能会有：</p>
-<p>相同的组织结构<br>相同的开发范式<br>相同的模块依赖<br>相同的工具配置<br>相同的基础代码</p>
-<p>这就造成，我们在开发一个新的项目时，有大量的重复操作要做，脚手架工具就是帮助我们来解决这类问题的。</p>
-<p>比如，以下截图就是我们通过脚手架生成的一个项目结构：</p>
-<p><img src="./images/3.png" alt="avatar"></p>
-<p>我们来看下常用的脚手架工具有哪些：</p>
-<p>react 项目 -&gt; create-react-app<br>vue 项目 -&gt; vue-cli<br>angular 项目 -&gt; angular-cli</p>
-<p>通用型脚手架生成工具：Yeoman（灵活，方便扩展）<br>它是用于创造现代化 web 应用的脚手架工具，不同于其他脚手架工具，yeoman 更像是一个脚手架运行平台。</p>
-]]></content>
-      <categories>
-        <category>notes</category>
-      </categories>
-      <tags>
-        <tag>前端脚手架</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>自定义Generator</title>
     <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/</url>
     <content><![CDATA[<h2 id="创建-Generator-模块"><a href="#创建-Generator-模块" class="headerlink" title="创建 Generator 模块"></a>创建 Generator 模块</h2><p>本质上就是一个 npm 模块</p>
-<p><img src="./images/8.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/8.png" alt="avatar"></p>
 <p>Generator 有基本结构，需要有一个 generators 文件夹，app 文件夹里放生成器所对应的代码</p>
-<p><img src="./images/9.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/9.png" alt="avatar"></p>
 <p>如果有多个 sub Generator，可以在 app 同级创建新的一个生成器目录</p>
-<p><img src="./images/10.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/10.png" alt="avatar"></p>
 <p>Yeoman 的生成器模块名称必须是：generator-&lt; name &gt; 这样的格式</p>
 <p>(1) 创建一个文件夹：mkdir generator-eryang<br>(2) 进入文件夹：cd generator-eryang<br>(3) 初始化 package.json：npm init<br>(4) 安装 yeoman-generator 模块，它是我们创建生成器的一个基类：npm install yeoman-generator</p>
-<p><img src="./images/11.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/11.png" alt="avatar"></p>
 <p>(4) 按照结构要求创建 generators/app/index.js 文件</p>
 <ul>
 <li>index.js 作为 Generator 的核心入口</li>
@@ -339,9 +287,9 @@
 <p>(5) 通过 npm link 方式，把这个模块链接到全局范围，使之成为一个全局模块包。这样，yeoman 在工作的时候，可以找到我们所创建的 generator-eryang 模块。</p>
 <p>接下来，我们通过命令来测试一下。</p>
 <p>（1）首先创建一个新的目录：mkdir my-pro<br>（2）进入目录文件夹：cd my-pro<br>（3）然后运行命令：yo eryang</p>
-<p><img src="./images/12.png" alt="avatar"></p>
-<p><img src="./images/13.png" alt="avatar"></p>
-<p><img src="./images/14.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/12.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/13.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/14.png" alt="avatar"></p>
 <p>最后，我们在 my-pro 看到，生成了一个 temp.txt 文件，文件里就是我们所写入的内容</p>
 <h2 id="根据模版创建文件"><a href="#根据模版创建文件" class="headerlink" title="根据模版创建文件"></a>根据模版创建文件</h2><p>因为很多时候，我们需要创建的文件有很多，而且文件的内容也相对复杂。那针对这样一种情况，我们可以使用模版去创建文件。</p>
 <p>（1）首先在生成器目录下，添加一个 templates 目录<br>（2）然后将我们需要生成的文件，全部放入这个目录里，作为模版，内部可以使用 EJ 模版标记输出数据，例如：&lt;%= title %&gt;，其他的 EJS 语法也支持。</p>
@@ -349,28 +297,28 @@
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> Generator = <span class="built_in">require</span>(<span class="string">&quot;yeoman-generator&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = <span class="class"><span class="keyword">class</span> <span class="keyword">extends</span> (</span></span><br><span class="line"><span class="class">  <span class="title">Generator</span></span></span><br><span class="line"><span class="class">) </span>&#123;</span><br><span class="line">  <span class="function"><span class="title">writing</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="comment">// 通过模版方式写入文件到目标目录</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 模板文件路径</span></span><br><span class="line">    <span class="keyword">const</span> temp = <span class="built_in">this</span>.templatePath(<span class="string">&quot;foo.txt&quot;</span>);</span><br><span class="line">    <span class="comment">// 输出目标路径</span></span><br><span class="line">    <span class="keyword">const</span> output = <span class="built_in">this</span>.destinationPath(<span class="string">&quot;foo.txt&quot;</span>);</span><br><span class="line">    <span class="comment">// 模板数据上下文</span></span><br><span class="line">    <span class="keyword">const</span> context = &#123; <span class="attr">title</span>: <span class="string">&quot;hello&quot;</span>, <span class="attr">success</span>: <span class="literal">false</span> &#125;;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">this</span>.fs.copyTpl(temp, output, context);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 <p>运行：yo eryang，我们会看到文件夹中新生成 foo.txt 文件</p>
-<p><img src="./images/15.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/15.png" alt="avatar"></p>
 <p>相对于手动创建每一个文件，模板的方式大大的提高了效率，特别是在文件比较多，比较复杂的情况下。</p>
 <h2 id="接受用户输入数据"><a href="#接受用户输入数据" class="headerlink" title="接受用户输入数据"></a>接受用户输入数据</h2><p>像项目中的动态数据，我们一般通过命令行交互的方式，去询问我们的使用者从而得到，比如标题，项目的名称。prompting 方法，帮助我们实现这些功能。</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> Generator = <span class="built_in">require</span>(<span class="string">&quot;yeoman-generator&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = <span class="class"><span class="keyword">class</span> <span class="keyword">extends</span> (</span></span><br><span class="line"><span class="class">  <span class="title">Generator</span></span></span><br><span class="line"><span class="class">) </span>&#123;</span><br><span class="line">  <span class="function"><span class="title">prompting</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="comment">// Yeoman在询问用户环节会自动调用此方法</span></span><br><span class="line">    <span class="comment">// 在此方法中可以调用父类的prompt()发出对用户的命令行询问</span></span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">this</span>.prompt([</span><br><span class="line">      &#123;</span><br><span class="line">        type: <span class="string">&quot;input&quot;</span>,</span><br><span class="line">        name: <span class="string">&quot;name&quot;</span>,</span><br><span class="line">        message: <span class="string">&quot;your project name&quot;</span>,</span><br><span class="line">        <span class="keyword">default</span>: <span class="built_in">this</span>.appname, <span class="comment">// 项目生成目录名称</span></span><br><span class="line">      &#125;,</span><br><span class="line">    ]).then(<span class="function">(<span class="params">answer</span>) =&gt;</span> &#123;</span><br><span class="line">      <span class="comment">// answers = &#123;name : &#x27;user input value&#x27;&#125;</span></span><br><span class="line">      <span class="built_in">this</span>.answers = answer;</span><br><span class="line">    &#125;);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">writing</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="comment">// 通过模版方式写入文件到目标目录</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 模板文件路径</span></span><br><span class="line">    <span class="keyword">const</span> temp = <span class="built_in">this</span>.templatePath(<span class="string">&quot;index.html&quot;</span>);</span><br><span class="line">    <span class="comment">// 输出目标路径</span></span><br><span class="line">    <span class="keyword">const</span> output = <span class="built_in">this</span>.destinationPath(<span class="string">&quot;index.html&quot;</span>);</span><br><span class="line">    <span class="comment">// 模板数据上下文</span></span><br><span class="line">    <span class="keyword">const</span> context = <span class="built_in">this</span>.answers;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">this</span>.fs.copyTpl(temp, output, context);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 <p>再次运行：yo eryang，我们首先会收到命令行的提示信息：? your project name: my pro<br>默认为：my pro，然后我们回复完之后，文件夹中依新生成 index.html 文件，并且&lt;%= name %&gt;已被替换为我们所回复的 my pro。</p>
-<p><img src="./images/16.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/16.png" alt="avatar"></p>
 <p>模版文件</p>
-<p><img src="./images/17.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/17.png" alt="avatar"></p>
 <p>生成后文件</p>
-<p><img src="./images/18.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/18.png" alt="avatar"></p>
 <h2 id="发布-Generator"><a href="#发布-Generator" class="headerlink" title="发布 Generator"></a>发布 Generator</h2><p>实际上是发布一个 npm 模块（通过 npm publish 命令实现）</p>
-<p><img src="./images/19.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/19.png" alt="avatar"></p>
 <p>(1）首先我们先忽略 node_modules 文件夹：echo node-modules &gt; .gitignore<br>(2）然后初始化 git，创建一个空仓库：git init</p>
-<p><img src="./images/20.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/20.png" alt="avatar"></p>
 <p>(3) 添加文件：git add .<br>(4) 完成一次提交：git commit -m ‘feat: init’</p>
-<p><img src="./images/21.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/21.png" alt="avatar"></p>
 <p>(5) 打开 github.com，创建一个远端仓库，名字叫做 generator-eryang</p>
 <p>(6) 为本地仓库添加一个远端仓库的别名：git remote add origin <a href="https://github.com/eryangboy/generator-eryang.git">https://github.com/eryangboy/generator-eryang.git</a></p>
-<p><img src="./images/22.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/22.png" alt="avatar"></p>
 <p>(7) 推送到远端仓库：git push -u origin master</p>
-<p><img src="./images/25.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/25.png" alt="avatar"></p>
 <p>(8) 发布模块: npm publish</p>
 <h3 id="snpm-publish-发布失败常见错误总结："><a href="#snpm-publish-发布失败常见错误总结：" class="headerlink" title="ßnpm publish 发布失败常见错误总结："></a>ßnpm publish 发布失败常见错误总结：</h3><ul>
 <li><p>版本号重复，无法发布<br>解决方案：修改 package.json 里面的 version 字段。</p>
@@ -382,8 +330,8 @@
 </ul>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry=http://registry.npmjs.org</span><br></pre></td></tr></table></figure>
 
-<p><img src="./images/23.png" alt="avatar"></p>
-<p><img src="./images/24.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/23.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/24.png" alt="avatar"></p>
 ]]></content>
       <categories>
         <category>notes</category>
@@ -413,25 +361,55 @@
       </tags>
   </entry>
   <entry>
-    <title>自动化构建简介</title>
-    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/</url>
-    <content><![CDATA[<h1 id="自动化构建"><a href="#自动化构建" class="headerlink" title="自动化构建"></a>自动化构建</h1><p>说白了，就是把我们开发阶段的源代码，自动化的去转换成生产环境可以运行的代码或者程序。<br>我们一般称它为：自动化构建工作流</p>
-<p><img src="./images/28.png" alt="avatar"></p>
-<p>它的作用，是让我们脱离运行环境兼容带来的种种问题，在开发阶段使用提高效率的语法、规范和标准</p>
-<h3 id="常用的自动化构建工具"><a href="#常用的自动化构建工具" class="headerlink" title="常用的自动化构建工具"></a>常用的自动化构建工具</h3><ul>
-<li><p>grunt 是最早的前端构建系统，插件生态完善，但是它的工作过程是基于临时文件实现的，所以构建速度较慢，例如：用它对工程中的 sass 文件的构建，一般会对 sass 文件做编译操作，再去添加一些私有属性的前缀，再去压缩代码。这些步骤 grunt 每一步都有磁盘读取操作。</p>
-</li>
-<li><p>Gulp 基于内存实现的，对文件的处理都是在内存中实现，速度快一些，默认同时支持多个任务，这是当下最流行的。</p>
-</li>
-<li><p>Fis 是百度前端团队研发的，最早只是在内部使用，适合初学者</p>
-</li>
+    <title>前端脚手架工具简介</title>
+    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/</url>
+    <content><![CDATA[<h6 id="我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。"><a href="#我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。" class="headerlink" title="我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。"></a>我们说，脚手架的本质所用，就是用来帮我们创建一个基础的项目结构，给我们提供项目规范和约定。</h6><p>在一个项目中，我们可能会有：</p>
+<p>相同的组织结构<br>相同的开发范式<br>相同的模块依赖<br>相同的工具配置<br>相同的基础代码</p>
+<p>这就造成，我们在开发一个新的项目时，有大量的重复操作要做，脚手架工具就是帮助我们来解决这类问题的。</p>
+<p>比如，以下截图就是我们通过脚手架生成的一个项目结构：</p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/3.png" alt="avatar"></p>
+<p>我们来看下常用的脚手架工具有哪些：</p>
+<p>react 项目 -&gt; create-react-app<br>vue 项目 -&gt; vue-cli<br>angular 项目 -&gt; angular-cli</p>
+<p>通用型脚手架生成工具：Yeoman（灵活，方便扩展）<br>它是用于创造现代化 web 应用的脚手架工具，不同于其他脚手架工具，yeoman 更像是一个脚手架运行平台。</p>
+]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>前端脚手架</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Yeoman的基本使用</title>
+    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/03-Yeoman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<p>（1）在全局范围安装 yo</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install yo -g</span><br></pre></td></tr></table></figure>
+
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/03-Yeoman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/4.png" alt="avatar"></p>
+<p>(2) 安装对应的 generator</p>
+<p>npm install generator-node -g</p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/03-Yeoman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/5.png" alt="avatar"></p>
+<p>(3) 创建一个新的文件夹：mkdir eryang-module</p>
+<p>(4) 进入文件夹： cd eryang-module</p>
+<p>(5) 通过 yo 运行 generator</p>
+<p>yo node</p>
+<p>根据命令行交互填写完成，生成一个目录结构，如下图：</p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/03-Yeoman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/6.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/03-Yeoman%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/7.png" alt="avatar"></p>
+<h2 id="Yeoman-常规使用步骤"><a href="#Yeoman-常规使用步骤" class="headerlink" title="Yeoman 常规使用步骤"></a>Yeoman 常规使用步骤</h2><ul>
+<li>明确需求</li>
+<li>找到合适的 Generator</li>
+<li>全局范围安装找到的 Generator</li>
+<li>通过 yo 运行对应的 Generator</li>
+<li>通过命令行交互填写选项</li>
+<li>生成所需要的项目结构</li>
 </ul>
 ]]></content>
       <categories>
         <category>notes</category>
       </categories>
       <tags>
-        <tag>自动化构建</tag>
+        <tag>前端脚手架</tag>
       </tags>
   </entry>
   <entry>
@@ -442,9 +420,9 @@
 <li>根据用户回答的结果生成文件</li>
 </ul>
 <p>(1) 首先呢，我们创建一个文件夹：mkdir sample-scaffolding<br>(2) 进入文件夹目录：cd sample-scaffolding<br>(3) 初始化 package.json 文件：npm init<br>(4) 在 package.json 文件中指定 cli 应用的入口文件</p>
-<p><img src="./images/26.png" alt="avator"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/06-%E8%84%9A%E6%89%8B%E6%9E%B6%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/26.png" alt="avator"></p>
 <p>(5) 创建 cli.js 文件，并且设置头部为 #!/usr/bin/env node</p>
-<p><img src="./images/27.png" alt="avator"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/06-%E8%84%9A%E6%89%8B%E6%9E%B6%E7%9A%84%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86/27.png" alt="avator"></p>
 <p>(6) 通过 npm link 链接到全局</p>
 <p>(7) 配置询问用户信息，需要安装 inquirur 模块：npm install inquirur<br>(8) 配置过程，详细看以下代码</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/env node</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// Node CLI 应用入口文件必须要有这样的文件头</span></span><br><span class="line"><span class="comment">// 如果是 Linux 或者 maxOS 系统下还要修改此文件的读写权限为 755</span></span><br><span class="line"><span class="comment">// 具体通过 chmod 755 cli.js 实现修改</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 脚手架的工作过程：</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// console.log(&quot;cli working&quot;);</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> inquirur = <span class="built_in">require</span>(<span class="string">&quot;inquirer&quot;</span>); <span class="comment">// 询问用户信息模块</span></span><br><span class="line"><span class="keyword">const</span> path = <span class="built_in">require</span>(<span class="string">&quot;path&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">&quot;fs&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> ejs = <span class="built_in">require</span>(<span class="string">&quot;ejs&quot;</span>); <span class="comment">// 模版引擎</span></span><br><span class="line"></span><br><span class="line">inquirur</span><br><span class="line">  .prompt([</span><br><span class="line">    &#123;</span><br><span class="line">      type: <span class="string">&quot;input&quot;</span>, <span class="comment">// 问题输入方式</span></span><br><span class="line">      name: <span class="string">&quot;name&quot;</span>, <span class="comment">// 问题返回的键</span></span><br><span class="line">      message: <span class="string">&quot;your project name&quot;</span>, <span class="comment">// 提示信息</span></span><br><span class="line">    &#125;,</span><br><span class="line">  ])</span><br><span class="line">  .then(<span class="function">(<span class="params">answers</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="comment">// answers 为用户回答的答案</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 根据用户回答的结果生成文件</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// console.log(answers);</span></span><br><span class="line">    <span class="comment">// _dirname 为当前目录</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 模板目录</span></span><br><span class="line">    <span class="keyword">const</span> tmplDir = path.join(__dirname, <span class="string">&quot;templates&quot;</span>);</span><br><span class="line">    <span class="comment">// console.log(__dirname, tmplDir);</span></span><br><span class="line">    <span class="comment">// /Users/eryang/sample-scaffolding /Users/eryang/sample-scaffolding/templates</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 目标目录</span></span><br><span class="line">    <span class="keyword">const</span> destDir = process.cwd();</span><br><span class="line">    <span class="comment">// console.log(destDir);</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 将模板下的文件，全部放到目标目录</span></span><br><span class="line">    fs.readdir(tmplDir, <span class="function">(<span class="params">err, files</span>) =&gt;</span> &#123;</span><br><span class="line">      <span class="keyword">if</span> (err) <span class="keyword">throw</span> err;</span><br><span class="line">      <span class="comment">//   console.log(files);   --   [ &#x27;index.html&#x27;, &#x27;style.css&#x27; ]</span></span><br><span class="line">      files.forEach(<span class="function">(<span class="params">file</span>) =&gt;</span> &#123;</span><br><span class="line">        <span class="comment">// 通过模版引擎渲染文件</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">// renderFile参数为：路径，数据，回调函数</span></span><br><span class="line">        ejs.renderFile(path.join(tmplDir, file), answers, <span class="function">(<span class="params">err, result</span>) =&gt;</span> &#123;</span><br><span class="line">          <span class="keyword">if</span> (err) <span class="keyword">throw</span> err;</span><br><span class="line">          <span class="comment">//   console.log(result);</span></span><br><span class="line">          <span class="comment">// 将结果写入目标文件路径</span></span><br><span class="line">          fs.writeFileSync(path.join(destDir, file), result);</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;);</span><br><span class="line">  &#125;);</span><br></pre></td></tr></table></figure>
@@ -457,80 +435,19 @@
       </tags>
   </entry>
   <entry>
-    <title>gulp基本使用</title>
-    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/08-gulp%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
-    <content><![CDATA[<h2 id="gulp-基本使用"><a href="#gulp-基本使用" class="headerlink" title="gulp 基本使用"></a>gulp 基本使用</h2><p>当下最流行的前端构建系统，高效、易用</p>
-<ol>
-<li><p>初始化 package.json：npm init -yes</p>
+    <title>自动化构建简介</title>
+    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/</url>
+    <content><![CDATA[<h1 id="自动化构建"><a href="#自动化构建" class="headerlink" title="自动化构建"></a>自动化构建</h1><p>说白了，就是把我们开发阶段的源代码，自动化的去转换成生产环境可以运行的代码或者程序。<br>我们一般称它为：自动化构建工作流</p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/07-%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA/28.png" alt="avatar"></p>
+<p>它的作用，是让我们脱离运行环境兼容带来的种种问题，在开发阶段使用提高效率的语法、规范和标准</p>
+<h3 id="常用的自动化构建工具"><a href="#常用的自动化构建工具" class="headerlink" title="常用的自动化构建工具"></a>常用的自动化构建工具</h3><ul>
+<li><p>grunt 是最早的前端构建系统，插件生态完善，但是它的工作过程是基于临时文件实现的，所以构建速度较慢，例如：用它对工程中的 sass 文件的构建，一般会对 sass 文件做编译操作，再去添加一些私有属性的前缀，再去压缩代码。这些步骤 grunt 每一步都有磁盘读取操作。</p>
 </li>
-<li><p>安装 gulp：npm install gulp -dev</p>
+<li><p>Gulp 基于内存实现的，对文件的处理都是在内存中实现，速度快一些，默认同时支持多个任务，这是当下最流行的。</p>
 </li>
-<li><p>创建入口文件 gulpfile.js</p>
+<li><p>Fis 是百度前端团队研发的，最早只是在内部使用，适合初学者</p>
 </li>
-<li><p>需要导出一个函数</p>
-</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">exports</span>.foo = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;gulp working&quot;</span>);</span><br><span class="line">  done(); <span class="comment">// 标识任务完成</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<p><img src="./images/29.png" alt="avator"></p>
-<p>执行 gulp foo，会报一个错误，这是因为 gulp 约定每一个任务都是异步任务，需要调用一个回调参数标记任务完成</p>
-<h3 id="gulp-创建组合任务"><a href="#gulp-创建组合任务" class="headerlink" title="gulp 创建组合任务"></a>gulp 创建组合任务</h3><ul>
-<li>series：串行任务结构</li>
 </ul>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; series, parallel &#125; = <span class="built_in">require</span>(<span class="string">&quot;gulp&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> task1 = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;task1 working~&quot;</span>);</span><br><span class="line">    done();</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> task2 = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;task2 working~&quot;</span>);</span><br><span class="line">    done();</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> task3 = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;task3 working~&quot;</span>);</span><br><span class="line">    done();</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="built_in">exports</span>.foo = series(task1, task2, task3);</span><br></pre></td></tr></table></figure>
-
-<p><img src="./images/30.png" alt="avator"></p>
-<ul>
-<li>parallel：并行任务结构</li>
-</ul>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; series, parallel &#125; = <span class="built_in">require</span>(<span class="string">&quot;gulp&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> task1 = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;task1 working~&quot;</span>);</span><br><span class="line">    done();</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> task2 = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;task2 working~&quot;</span>);</span><br><span class="line">    done();</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> task3 = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;task3 working~&quot;</span>);</span><br><span class="line">    done();</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="built_in">exports</span>.foo = parallel(task1, task2, task3);</span><br></pre></td></tr></table></figure>
-
-<p><img src="./images/31.png" alt="avator"></p>
-<h3 id="gulp-异步任务的三种方式"><a href="#gulp-异步任务的三种方式" class="headerlink" title="gulp 异步任务的三种方式"></a>gulp 异步任务的三种方式</h3><ol>
-<li>第一种是回调方式</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">exports</span>.callback = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;calback task&quot;</span>);</span><br><span class="line">  done();</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>如果想阻止剩下任务执行，可以 done(一个错误)</li>
-</ul>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">exports</span>.callback_error = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;calback task&quot;</span>);</span><br><span class="line">  done(<span class="keyword">new</span> <span class="built_in">Error</span>(<span class="string">&#x27;task failed));</span></span><br><span class="line"><span class="string">&#125;;</span></span><br></pre></td></tr></table></figure>
-
-<ol start="2">
-<li>第二种是 Promise</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">exports</span>.promise = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;promise task&quot;</span>);</span><br><span class="line">  <span class="built_in">Promise</span>.resolve();</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>如果想阻止剩下任务执行，可以 reject(一个错误)</li>
-</ul>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">exports</span>.promise_error = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;calback task&quot;</span>);</span><br><span class="line">  <span class="built_in">Promise</span>.reject(<span class="keyword">new</span> <span class="built_in">Error</span>(<span class="string">&quot;promise failed&quot;</span>));</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<ol start="3">
-<li>第三种是 Async/await</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> timeout = <span class="function">(<span class="params">time</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function">(<span class="params">resolve</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">setTimeout</span>(resolve, time);</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="built_in">exports</span>.async = <span class="keyword">async</span> () =&gt; &#123;</span><br><span class="line">  <span class="keyword">await</span> timeout(<span class="number">2000</span>);</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;async task&quot;</span>);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<h3 id="gulp-构建过程核心工作原理"><a href="#gulp-构建过程核心工作原理" class="headerlink" title="gulp 构建过程核心工作原理"></a>gulp 构建过程核心工作原理</h3><ol>
-<li>首先是复制操作</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">&quot;fs&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">exports</span>.default = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">// 文件读取流</span></span><br><span class="line">  <span class="keyword">const</span> read = fs.createReadStream(<span class="string">&quot;normalize.css&quot;</span>);</span><br><span class="line">  <span class="comment">// 文件写入流</span></span><br><span class="line">  <span class="keyword">const</span> write = fs.createWriteStream(<span class="string">&quot;normalize.min.css&quot;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 把读取出来的文件读取流导入到文件写入流</span></span><br><span class="line">  read.pipe(write);</span><br><span class="line">  <span class="keyword">return</span> read;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<ol start="2">
-<li>然后是转换操作</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">&quot;fs&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> &#123; Transform &#125; = <span class="built_in">require</span>(<span class="string">&quot;stream&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">exports</span>.default = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">// 文件读取流</span></span><br><span class="line">  <span class="keyword">const</span> read = fs.createReadStream(<span class="string">&quot;normalize.css&quot;</span>);</span><br><span class="line">  <span class="comment">// 文件写入流</span></span><br><span class="line">  <span class="keyword">const</span> write = fs.createWriteStream(<span class="string">&quot;normalize.min.css&quot;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 文件转换流</span></span><br><span class="line">  <span class="keyword">const</span> transform = <span class="keyword">new</span> Transform(&#123;</span><br><span class="line">    transform: <span class="function">(<span class="params">chunk, encoding, callback</span>) =&gt;</span> &#123;</span><br><span class="line">      <span class="comment">// 核心转换过程实现</span></span><br><span class="line">      <span class="comment">// chunk：读取流中读取到的内容（Buffer）</span></span><br><span class="line">      <span class="keyword">const</span> input = chunk.toString();</span><br><span class="line">      <span class="keyword">const</span> output = input.replace(<span class="regexp">/\s+/g</span>, <span class="string">&quot;&quot;</span>).replace(<span class="regexp">/\/\*.+?\*\//g</span>, <span class="string">&quot;&quot;</span>);</span><br><span class="line">      callback(<span class="literal">null</span>, output); <span class="comment">// 错误优先，没有错误传入null</span></span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 把读取出来的文件读取流导入到文件写入流</span></span><br><span class="line">  read</span><br><span class="line">    .pipe(transform) <span class="comment">// 转换</span></span><br><span class="line">    .pipe(write); <span class="comment">// 写入</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> read;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<p><img src="./images/32.png" alt="avator"></p>
-<h3 id="gulp-文件操作-api-和插件的使用"><a href="#gulp-文件操作-api-和插件的使用" class="headerlink" title="gulp 文件操作 api 和插件的使用"></a>gulp 文件操作 api 和插件的使用</h3><ol>
-<li>复制操作</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; src, dest &#125; = <span class="built_in">require</span>(<span class="string">&quot;gulp&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">exports</span>.default = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">return</span> src(<span class="string">&quot;src/*.css&quot;</span>).pipe(dest(<span class="string">&quot;dist&quot;</span>));</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<ol start="2">
-<li>转换操作</li>
-</ol>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; src, dest &#125; = <span class="built_in">require</span>(<span class="string">&quot;gulp&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> cssClean = <span class="built_in">require</span>(<span class="string">&quot;gulp-clean-css&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> rename = <span class="built_in">require</span>(<span class="string">&quot;gulp-rename&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">exports</span>.default = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">return</span> src(<span class="string">&quot;src/*.css&quot;</span>)</span><br><span class="line">    .pipe(cssClean())</span><br><span class="line">    .pipe(rename(&#123; <span class="attr">extname</span>: <span class="string">&quot;.min.css&quot;</span> &#125;))</span><br><span class="line">    .pipe(dest(<span class="string">&quot;dist&quot;</span>));</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>notes</category>
@@ -678,6 +595,89 @@
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">  build,</span><br><span class="line">  clean,</span><br><span class="line">  develop,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 <h1 id="封装工作流"><a href="#封装工作流" class="headerlink" title="封装工作流"></a>封装工作流</h1>]]></content>
+      <categories>
+        <category>notes</category>
+      </categories>
+      <tags>
+        <tag>自动化构建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>gulp基本使用</title>
+    <url>/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/08-gulp%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/</url>
+    <content><![CDATA[<h2 id="gulp-基本使用"><a href="#gulp-基本使用" class="headerlink" title="gulp 基本使用"></a>gulp 基本使用</h2><p>当下最流行的前端构建系统，高效、易用</p>
+<ol>
+<li><p>初始化 package.json：npm init -yes</p>
+</li>
+<li><p>安装 gulp：npm install gulp -dev</p>
+</li>
+<li><p>创建入口文件 gulpfile.js</p>
+</li>
+<li><p>需要导出一个函数</p>
+</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">exports</span>.foo = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;gulp working&quot;</span>);</span><br><span class="line">  done(); <span class="comment">// 标识任务完成</span></span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/08-gulp%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/29.png" alt="avator"></p>
+<p>执行 gulp foo，会报一个错误，这是因为 gulp 约定每一个任务都是异步任务，需要调用一个回调参数标记任务完成</p>
+<h3 id="gulp-创建组合任务"><a href="#gulp-创建组合任务" class="headerlink" title="gulp 创建组合任务"></a>gulp 创建组合任务</h3><ul>
+<li>series：串行任务结构</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; series, parallel &#125; = <span class="built_in">require</span>(<span class="string">&quot;gulp&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> task1 = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;task1 working~&quot;</span>);</span><br><span class="line">    done();</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> task2 = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;task2 working~&quot;</span>);</span><br><span class="line">    done();</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> task3 = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;task3 working~&quot;</span>);</span><br><span class="line">    done();</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="built_in">exports</span>.foo = series(task1, task2, task3);</span><br></pre></td></tr></table></figure>
+
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/08-gulp%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/30.png" alt="avator"></p>
+<ul>
+<li>parallel：并行任务结构</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; series, parallel &#125; = <span class="built_in">require</span>(<span class="string">&quot;gulp&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> task1 = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;task1 working~&quot;</span>);</span><br><span class="line">    done();</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> task2 = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;task2 working~&quot;</span>);</span><br><span class="line">    done();</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> task3 = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">&quot;task3 working~&quot;</span>);</span><br><span class="line">    done();</span><br><span class="line">  &#125;, <span class="number">1000</span>);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="built_in">exports</span>.foo = parallel(task1, task2, task3);</span><br></pre></td></tr></table></figure>
+
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/08-gulp%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/31.png" alt="avator"></p>
+<h3 id="gulp-异步任务的三种方式"><a href="#gulp-异步任务的三种方式" class="headerlink" title="gulp 异步任务的三种方式"></a>gulp 异步任务的三种方式</h3><ol>
+<li>第一种是回调方式</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">exports</span>.callback = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;calback task&quot;</span>);</span><br><span class="line">  done();</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>如果想阻止剩下任务执行，可以 done(一个错误)</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">exports</span>.callback_error = <span class="function">(<span class="params">done</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;calback task&quot;</span>);</span><br><span class="line">  done(<span class="keyword">new</span> <span class="built_in">Error</span>(<span class="string">&#x27;task failed));</span></span><br><span class="line"><span class="string">&#125;;</span></span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>第二种是 Promise</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">exports</span>.promise = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;promise task&quot;</span>);</span><br><span class="line">  <span class="built_in">Promise</span>.resolve();</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>如果想阻止剩下任务执行，可以 reject(一个错误)</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">exports</span>.promise_error = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;calback task&quot;</span>);</span><br><span class="line">  <span class="built_in">Promise</span>.reject(<span class="keyword">new</span> <span class="built_in">Error</span>(<span class="string">&quot;promise failed&quot;</span>));</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<ol start="3">
+<li>第三种是 Async/await</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> timeout = <span class="function">(<span class="params">time</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function">(<span class="params">resolve</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="built_in">setTimeout</span>(resolve, time);</span><br><span class="line">  &#125;);</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="built_in">exports</span>.async = <span class="keyword">async</span> () =&gt; &#123;</span><br><span class="line">  <span class="keyword">await</span> timeout(<span class="number">2000</span>);</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;async task&quot;</span>);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<h3 id="gulp-构建过程核心工作原理"><a href="#gulp-构建过程核心工作原理" class="headerlink" title="gulp 构建过程核心工作原理"></a>gulp 构建过程核心工作原理</h3><ol>
+<li>首先是复制操作</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">&quot;fs&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">exports</span>.default = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">// 文件读取流</span></span><br><span class="line">  <span class="keyword">const</span> read = fs.createReadStream(<span class="string">&quot;normalize.css&quot;</span>);</span><br><span class="line">  <span class="comment">// 文件写入流</span></span><br><span class="line">  <span class="keyword">const</span> write = fs.createWriteStream(<span class="string">&quot;normalize.min.css&quot;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 把读取出来的文件读取流导入到文件写入流</span></span><br><span class="line">  read.pipe(write);</span><br><span class="line">  <span class="keyword">return</span> read;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>然后是转换操作</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> fs = <span class="built_in">require</span>(<span class="string">&quot;fs&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> &#123; Transform &#125; = <span class="built_in">require</span>(<span class="string">&quot;stream&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">exports</span>.default = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">// 文件读取流</span></span><br><span class="line">  <span class="keyword">const</span> read = fs.createReadStream(<span class="string">&quot;normalize.css&quot;</span>);</span><br><span class="line">  <span class="comment">// 文件写入流</span></span><br><span class="line">  <span class="keyword">const</span> write = fs.createWriteStream(<span class="string">&quot;normalize.min.css&quot;</span>);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 文件转换流</span></span><br><span class="line">  <span class="keyword">const</span> transform = <span class="keyword">new</span> Transform(&#123;</span><br><span class="line">    transform: <span class="function">(<span class="params">chunk, encoding, callback</span>) =&gt;</span> &#123;</span><br><span class="line">      <span class="comment">// 核心转换过程实现</span></span><br><span class="line">      <span class="comment">// chunk：读取流中读取到的内容（Buffer）</span></span><br><span class="line">      <span class="keyword">const</span> input = chunk.toString();</span><br><span class="line">      <span class="keyword">const</span> output = input.replace(<span class="regexp">/\s+/g</span>, <span class="string">&quot;&quot;</span>).replace(<span class="regexp">/\/\*.+?\*\//g</span>, <span class="string">&quot;&quot;</span>);</span><br><span class="line">      callback(<span class="literal">null</span>, output); <span class="comment">// 错误优先，没有错误传入null</span></span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;);</span><br><span class="line"></span><br><span class="line">  <span class="comment">// 把读取出来的文件读取流导入到文件写入流</span></span><br><span class="line">  read</span><br><span class="line">    .pipe(transform) <span class="comment">// 转换</span></span><br><span class="line">    .pipe(write); <span class="comment">// 写入</span></span><br><span class="line"></span><br><span class="line">  <span class="keyword">return</span> read;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/08-gulp%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8/32.png" alt="avator"></p>
+<h3 id="gulp-文件操作-api-和插件的使用"><a href="#gulp-文件操作-api-和插件的使用" class="headerlink" title="gulp 文件操作 api 和插件的使用"></a>gulp 文件操作 api 和插件的使用</h3><ol>
+<li>复制操作</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; src, dest &#125; = <span class="built_in">require</span>(<span class="string">&quot;gulp&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">exports</span>.default = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">return</span> src(<span class="string">&quot;src/*.css&quot;</span>).pipe(dest(<span class="string">&quot;dist&quot;</span>));</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>转换操作</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> &#123; src, dest &#125; = <span class="built_in">require</span>(<span class="string">&quot;gulp&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> cssClean = <span class="built_in">require</span>(<span class="string">&quot;gulp-clean-css&quot;</span>);</span><br><span class="line"><span class="keyword">const</span> rename = <span class="built_in">require</span>(<span class="string">&quot;gulp-rename&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">exports</span>.default = <span class="function">() =&gt;</span> &#123;</span><br><span class="line">  <span class="keyword">return</span> src(<span class="string">&quot;src/*.css&quot;</span>)</span><br><span class="line">    .pipe(cssClean())</span><br><span class="line">    .pipe(rename(&#123; <span class="attr">extname</span>: <span class="string">&quot;.min.css&quot;</span> &#125;))</span><br><span class="line">    .pipe(dest(<span class="string">&quot;dist&quot;</span>));</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+]]></content>
       <categories>
         <category>notes</category>
       </categories>

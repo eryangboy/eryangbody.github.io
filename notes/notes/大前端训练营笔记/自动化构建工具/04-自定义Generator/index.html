@@ -95,30 +95,30 @@
 <meta property="og:site_name" content="二羊的小窝仔">
 <meta property="og:description" content="创建 Generator 模块本质上就是一个 npm 模块  Generator 有基本结构，需要有一个 generators 文件夹，app 文件夹里放生成器所对应的代码  如果有多个 sub Generator，可以在 app 同级创建新的一个生成器目录  Yeoman 的生成器模块名称必须是：generator-&lt; name &gt; 这样的格式 (1) 创建一个文件夹：mkdir g">
 <meta property="og:locale">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/8.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/9.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/10.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/11.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/12.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/13.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/14.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/15.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/16.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/17.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/18.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/19.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/20.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/21.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/22.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/25.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/23.png">
-<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/24.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/8.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/9.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/10.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/11.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/12.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/13.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/14.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/15.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/16.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/17.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/18.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/19.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/20.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/21.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/22.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/25.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/23.png">
+<meta property="og:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/24.png">
 <meta property="article:published_time" content="2020-12-17T08:34:41.000Z">
 <meta property="article:modified_time" content="2020-12-19T12:07:10.656Z">
 <meta property="article:author" content="二羊">
 <meta property="article:tag" content="前端脚手架">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/images/8.png">
+<meta name="twitter:image" content="https://eryangboy.github.io/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/8.png">
 
 
 
@@ -436,14 +436,14 @@
 
       
         <h2 id="创建-Generator-模块"><a href="#创建-Generator-模块" class="headerlink" title="创建 Generator 模块"></a>创建 Generator 模块</h2><p>本质上就是一个 npm 模块</p>
-<p><img src="./images/8.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/8.png" alt="avatar"></p>
 <p>Generator 有基本结构，需要有一个 generators 文件夹，app 文件夹里放生成器所对应的代码</p>
-<p><img src="./images/9.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/9.png" alt="avatar"></p>
 <p>如果有多个 sub Generator，可以在 app 同级创建新的一个生成器目录</p>
-<p><img src="./images/10.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/10.png" alt="avatar"></p>
 <p>Yeoman 的生成器模块名称必须是：generator-&lt; name &gt; 这样的格式</p>
 <p>(1) 创建一个文件夹：mkdir generator-eryang<br>(2) 进入文件夹：cd generator-eryang<br>(3) 初始化 package.json：npm init<br>(4) 安装 yeoman-generator 模块，它是我们创建生成器的一个基类：npm install yeoman-generator</p>
-<p><img src="./images/11.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/11.png" alt="avatar"></p>
 <p>(4) 按照结构要求创建 generators/app/index.js 文件</p>
 <ul>
 <li>index.js 作为 Generator 的核心入口</li>
@@ -456,9 +456,9 @@
 <p>(5) 通过 npm link 方式，把这个模块链接到全局范围，使之成为一个全局模块包。这样，yeoman 在工作的时候，可以找到我们所创建的 generator-eryang 模块。</p>
 <p>接下来，我们通过命令来测试一下。</p>
 <p>（1）首先创建一个新的目录：mkdir my-pro<br>（2）进入目录文件夹：cd my-pro<br>（3）然后运行命令：yo eryang</p>
-<p><img src="./images/12.png" alt="avatar"></p>
-<p><img src="./images/13.png" alt="avatar"></p>
-<p><img src="./images/14.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/12.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/13.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/14.png" alt="avatar"></p>
 <p>最后，我们在 my-pro 看到，生成了一个 temp.txt 文件，文件里就是我们所写入的内容</p>
 <h2 id="根据模版创建文件"><a href="#根据模版创建文件" class="headerlink" title="根据模版创建文件"></a>根据模版创建文件</h2><p>因为很多时候，我们需要创建的文件有很多，而且文件的内容也相对复杂。那针对这样一种情况，我们可以使用模版去创建文件。</p>
 <p>（1）首先在生成器目录下，添加一个 templates 目录<br>（2）然后将我们需要生成的文件，全部放入这个目录里，作为模版，内部可以使用 EJ 模版标记输出数据，例如：&lt;%= title %&gt;，其他的 EJS 语法也支持。</p>
@@ -466,28 +466,28 @@
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> Generator = <span class="built_in">require</span>(<span class="string">&quot;yeoman-generator&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = <span class="class"><span class="keyword">class</span> <span class="keyword">extends</span> (</span></span><br><span class="line"><span class="class">  <span class="title">Generator</span></span></span><br><span class="line"><span class="class">) </span>&#123;</span><br><span class="line">  <span class="function"><span class="title">writing</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="comment">// 通过模版方式写入文件到目标目录</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 模板文件路径</span></span><br><span class="line">    <span class="keyword">const</span> temp = <span class="built_in">this</span>.templatePath(<span class="string">&quot;foo.txt&quot;</span>);</span><br><span class="line">    <span class="comment">// 输出目标路径</span></span><br><span class="line">    <span class="keyword">const</span> output = <span class="built_in">this</span>.destinationPath(<span class="string">&quot;foo.txt&quot;</span>);</span><br><span class="line">    <span class="comment">// 模板数据上下文</span></span><br><span class="line">    <span class="keyword">const</span> context = &#123; <span class="attr">title</span>: <span class="string">&quot;hello&quot;</span>, <span class="attr">success</span>: <span class="literal">false</span> &#125;;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">this</span>.fs.copyTpl(temp, output, context);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 <p>运行：yo eryang，我们会看到文件夹中新生成 foo.txt 文件</p>
-<p><img src="./images/15.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/15.png" alt="avatar"></p>
 <p>相对于手动创建每一个文件，模板的方式大大的提高了效率，特别是在文件比较多，比较复杂的情况下。</p>
 <h2 id="接受用户输入数据"><a href="#接受用户输入数据" class="headerlink" title="接受用户输入数据"></a>接受用户输入数据</h2><p>像项目中的动态数据，我们一般通过命令行交互的方式，去询问我们的使用者从而得到，比如标题，项目的名称。prompting 方法，帮助我们实现这些功能。</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> Generator = <span class="built_in">require</span>(<span class="string">&quot;yeoman-generator&quot;</span>);</span><br><span class="line"></span><br><span class="line"><span class="built_in">module</span>.exports = <span class="class"><span class="keyword">class</span> <span class="keyword">extends</span> (</span></span><br><span class="line"><span class="class">  <span class="title">Generator</span></span></span><br><span class="line"><span class="class">) </span>&#123;</span><br><span class="line">  <span class="function"><span class="title">prompting</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="comment">// Yeoman在询问用户环节会自动调用此方法</span></span><br><span class="line">    <span class="comment">// 在此方法中可以调用父类的prompt()发出对用户的命令行询问</span></span><br><span class="line">    <span class="keyword">return</span> <span class="built_in">this</span>.prompt([</span><br><span class="line">      &#123;</span><br><span class="line">        type: <span class="string">&quot;input&quot;</span>,</span><br><span class="line">        name: <span class="string">&quot;name&quot;</span>,</span><br><span class="line">        message: <span class="string">&quot;your project name&quot;</span>,</span><br><span class="line">        <span class="keyword">default</span>: <span class="built_in">this</span>.appname, <span class="comment">// 项目生成目录名称</span></span><br><span class="line">      &#125;,</span><br><span class="line">    ]).then(<span class="function">(<span class="params">answer</span>) =&gt;</span> &#123;</span><br><span class="line">      <span class="comment">// answers = &#123;name : &#x27;user input value&#x27;&#125;</span></span><br><span class="line">      <span class="built_in">this</span>.answers = answer;</span><br><span class="line">    &#125;);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="function"><span class="title">writing</span>(<span class="params"></span>)</span> &#123;</span><br><span class="line">    <span class="comment">// 通过模版方式写入文件到目标目录</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// 模板文件路径</span></span><br><span class="line">    <span class="keyword">const</span> temp = <span class="built_in">this</span>.templatePath(<span class="string">&quot;index.html&quot;</span>);</span><br><span class="line">    <span class="comment">// 输出目标路径</span></span><br><span class="line">    <span class="keyword">const</span> output = <span class="built_in">this</span>.destinationPath(<span class="string">&quot;index.html&quot;</span>);</span><br><span class="line">    <span class="comment">// 模板数据上下文</span></span><br><span class="line">    <span class="keyword">const</span> context = <span class="built_in">this</span>.answers;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">this</span>.fs.copyTpl(temp, output, context);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
 <p>再次运行：yo eryang，我们首先会收到命令行的提示信息：? your project name: my pro<br>默认为：my pro，然后我们回复完之后，文件夹中依新生成 index.html 文件，并且&lt;%= name %&gt;已被替换为我们所回复的 my pro。</p>
-<p><img src="./images/16.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/16.png" alt="avatar"></p>
 <p>模版文件</p>
-<p><img src="./images/17.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/17.png" alt="avatar"></p>
 <p>生成后文件</p>
-<p><img src="./images/18.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/18.png" alt="avatar"></p>
 <h2 id="发布-Generator"><a href="#发布-Generator" class="headerlink" title="发布 Generator"></a>发布 Generator</h2><p>实际上是发布一个 npm 模块（通过 npm publish 命令实现）</p>
-<p><img src="./images/19.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/19.png" alt="avatar"></p>
 <p>(1）首先我们先忽略 node_modules 文件夹：echo node-modules &gt; .gitignore<br>(2）然后初始化 git，创建一个空仓库：git init</p>
-<p><img src="./images/20.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/20.png" alt="avatar"></p>
 <p>(3) 添加文件：git add .<br>(4) 完成一次提交：git commit -m ‘feat: init’</p>
-<p><img src="./images/21.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/21.png" alt="avatar"></p>
 <p>(5) 打开 github.com，创建一个远端仓库，名字叫做 generator-eryang</p>
 <p>(6) 为本地仓库添加一个远端仓库的别名：git remote add origin <a target="_blank" rel="noopener" href="https://github.com/eryangboy/generator-eryang.git">https://github.com/eryangboy/generator-eryang.git</a></p>
-<p><img src="./images/22.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/22.png" alt="avatar"></p>
 <p>(7) 推送到远端仓库：git push -u origin master</p>
-<p><img src="./images/25.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/25.png" alt="avatar"></p>
 <p>(8) 发布模块: npm publish</p>
 <h3 id="snpm-publish-发布失败常见错误总结："><a href="#snpm-publish-发布失败常见错误总结：" class="headerlink" title="ßnpm publish 发布失败常见错误总结："></a>ßnpm publish 发布失败常见错误总结：</h3><ul>
 <li><p>版本号重复，无法发布<br>解决方案：修改 package.json 里面的 version 字段。</p>
@@ -499,8 +499,8 @@
 </ul>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm config <span class="built_in">set</span> registry=http://registry.npmjs.org</span><br></pre></td></tr></table></figure>
 
-<p><img src="./images/23.png" alt="avatar"></p>
-<p><img src="./images/24.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/23.png" alt="avatar"></p>
+<p><img src="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/04-%E8%87%AA%E5%AE%9A%E4%B9%89Generator/24.png" alt="avatar"></p>
 
       
     </div>
@@ -570,8 +570,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/02-%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6%E5%B7%A5%E5%85%B7%E7%AE%80%E4%BB%8B/" rel="prev" title="前端脚手架工具简介">
-                前端脚手架工具简介 <i class="fa fa-chevron-right"></i>
+              <a href="/notes/notes/%E5%A4%A7%E5%89%8D%E7%AB%AF%E8%AE%AD%E7%BB%83%E8%90%A5%E7%AC%94%E8%AE%B0/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%9E%84%E5%BB%BA%E5%B7%A5%E5%85%B7/01-%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%8C%96%E7%AE%80%E4%BB%8B/" rel="prev" title="前端工程化简介">
+                前端工程化简介 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
